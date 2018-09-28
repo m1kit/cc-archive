@@ -1,0 +1,49 @@
+{
+  "name" : "D - Recording",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 2\n1 7 2\n7 8 1\n8 12 1\n",
+    "output" : "2\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 4\n1 3 2\n3 4 4\n1 4 3\n",
+    "output" : "3\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "9 4\n56 60 4\n33 37 2\n89 90 3\n32 43 1\n67 68 3\n49 51 3\n31 32 3\n70 71 1\n11 12 3\n",
+    "output" : "2\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "2 1\n1 2 1\n2 3 1",
+    "output" : "1",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.DRecording",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.25",
+  "contestName" : "AtCoder Beginner Contest 080",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

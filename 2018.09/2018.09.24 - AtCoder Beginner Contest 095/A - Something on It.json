@@ -1,0 +1,44 @@
+{
+  "name" : "A - Something on It",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "oxo\n",
+    "output" : "900\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "ooo\n",
+    "output" : "1000\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "xxx\n",
+    "output" : "700\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.ASomethingOnIt",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.24",
+  "contestName" : "AtCoder Beginner Contest 095",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,44 @@
+{
+  "name" : "B - Chocolate",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n7 1\n2\n5\n10\n",
+    "output" : "8\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2\n8 20\n1\n10\n",
+    "output" : "29\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5\n30 44\n26\n18\n81\n18\n6\n",
+    "output" : "56\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.BChocolate",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.22",
+  "contestName" : "AtCoder Beginner Contest 092",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

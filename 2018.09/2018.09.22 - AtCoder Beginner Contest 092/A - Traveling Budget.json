@@ -1,0 +1,44 @@
+{
+  "name" : "A - Traveling Budget",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "600\n300\n220\n420\n",
+    "output" : "520\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "555\n555\n400\n200\n",
+    "output" : "755\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "549\n817\n715\n603\n",
+    "output" : "1152\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.ATravelingBudget",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.22",
+  "contestName" : "AtCoder Beginner Contest 092",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

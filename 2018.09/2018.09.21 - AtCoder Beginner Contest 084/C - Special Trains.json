@@ -1,0 +1,44 @@
+{
+  "name" : "C - Special Trains",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n6 5 1\n1 10 1\n",
+    "output" : "12\n11\n0\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4\n12 24 6\n52 16 4\n99 2 2\n",
+    "output" : "187\n167\n101\n0\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4\n12 13 1\n44 17 17\n66 4096 64\n",
+    "output" : "4162\n4162\n4162\n0\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.CSpecialTrains",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.21",
+  "contestName" : "AtCoder Beginner Contest 084",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

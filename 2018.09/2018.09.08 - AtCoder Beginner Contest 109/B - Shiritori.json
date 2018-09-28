@@ -1,0 +1,49 @@
+{
+  "name" : "B - Shiritori",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\nhoge\nenglish\nhoge\nenigma\n",
+    "output" : "No\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "9\nbasic\nc\ncpp\nphp\npython\nnadesico\nocaml\nlua\nassembly\n",
+    "output" : "Yes\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "8\na\naa\naaa\naaaa\naaaaa\naaaaaa\naaa\naaaaaaa\n",
+    "output" : "No\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3\nabc\narc\nagc\n",
+    "output" : "No\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.BShiritori",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.08",
+  "contestName" : "AtCoder Beginner Contest 109",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

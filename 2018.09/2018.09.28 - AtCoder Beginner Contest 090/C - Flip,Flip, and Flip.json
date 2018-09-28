@@ -1,0 +1,44 @@
+{
+  "name" : "C - Flip,Flip, and Flip......",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2 2\n",
+    "output" : "0\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1 7\n",
+    "output" : "5\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "314 1592\n",
+    "output" : "496080\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.CFlipFlipAndFlip",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.28",
+  "contestName" : "AtCoder Beginner Contest 090",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

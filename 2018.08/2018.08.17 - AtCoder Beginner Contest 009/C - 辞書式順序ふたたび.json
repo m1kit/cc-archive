@@ -1,0 +1,74 @@
+{
+  "name" : "C - 辞書式順序ふたたび",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 2\nabc",
+    "output" : "abc",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "7 2\natcoder",
+    "output" : "actoder\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "7 7\natcoder",
+    "output" : "acdeort\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "10 3\nhelloworld",
+    "output" : "dehloworll",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "3 1\ncab",
+    "output" : "cab",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "3 2\ncab",
+    "output" : "acb",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "3 3\ncab",
+    "output" : "abc",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "3 2\ncaa",
+    "output" : "aac",
+    "index" : 7,
+    "active" : true
+  }, {
+    "input" : "4 3\ncbaa",
+    "output" : "abac",
+    "index" : 8,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.C",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.08.17",
+  "contestName" : "AtCoder Beginner Contest 009",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

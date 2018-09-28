@@ -1,0 +1,49 @@
+{
+  "name" : "A - Buying Sweets",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1234\n150\n100\n",
+    "output" : "84\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1000\n108\n108\n",
+    "output" : "28\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "579\n123\n456\n",
+    "output" : "0\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "7477\n549\n593\n",
+    "output" : "405\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.ABuyingSweets",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.24",
+  "contestName" : "AtCoder Beginner Contest 087",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

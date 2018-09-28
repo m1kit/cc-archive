@@ -1,0 +1,44 @@
+{
+  "name" : "B - 高橋くんと文字列圧縮",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "aabbbaad",
+    "output" : "a2b3a2d1\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "aabbbbbbbbbbbbxyza",
+    "output" : "a2b12x1y1z1a1\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "edcba",
+    "output" : "e1d1c1b1a1\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.B",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.08.23",
+  "contestName" : "AtCoder Beginner Contest 019",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

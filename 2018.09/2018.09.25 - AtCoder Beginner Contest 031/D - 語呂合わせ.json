@@ -1,0 +1,49 @@
+{
+  "name" : "D - 語呂合わせ",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6 4\n356 migoro\n461 yoroi\n2 ni\n12 ini",
+    "output" : "i\nni\nmi\nyo\ngo\nro\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 4\n21 aaa\n12 aaa\n123 aaaaaa\n13 aaaa",
+    "output" : "a\naa\naaa",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2 3\n12211 abcaaaaabcabc\n2121 aaabcaaabc\n222221 aaaaaaaaaaabc",
+    "output" : "abc\naa",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "2 1\n12 abcab",
+    "output" : "ab\ncab",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.D",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.25",
+  "contestName" : "AtCoder Beginner Contest 031",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

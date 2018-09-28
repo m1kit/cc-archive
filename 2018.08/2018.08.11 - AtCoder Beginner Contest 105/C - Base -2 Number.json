@@ -1,0 +1,44 @@
+{
+  "name" : "C - Base -2 Number",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "-9\n",
+    "output" : "1011\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "123456789\n",
+    "output" : "11000101011001101110100010101\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "0\n",
+    "output" : "0\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.CBase2Number",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.08.11",
+  "contestName" : "AtCoder Beginner Contest 105",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

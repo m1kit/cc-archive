@@ -1,0 +1,44 @@
+{
+  "name" : "C - Train Ticket",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1222\n",
+    "output" : "1+2+2+2=7\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "0290\n",
+    "output" : "0-2+9+0=7\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3242\n",
+    "output" : "3+2+4-2=7\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.CTrainTicket",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.20",
+  "contestName" : "AtCoder Beginner Contest 079",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

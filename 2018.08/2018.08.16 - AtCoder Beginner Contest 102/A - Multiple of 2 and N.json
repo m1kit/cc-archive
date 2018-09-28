@@ -1,0 +1,44 @@
+{
+  "name" : "A - Multiple of 2 and N",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n",
+    "output" : "6\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "10\n",
+    "output" : "10\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "999999999\n",
+    "output" : "1999999998\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.AMultipleOf2AndN",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.08.16",
+  "contestName" : "AtCoder Beginner Contest 102",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

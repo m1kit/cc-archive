@@ -1,0 +1,64 @@
+{
+  "name" : "C - 風力観測",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2750 628",
+    "output" : "W 5",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3263 15",
+    "output" : "NNW 1",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1462 1959",
+    "output" : "SE 12",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "113 201",
+    "output" : "NNE 3",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "2048 16",
+    "output" : "SSW 1",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "2587 644",
+    "output" : "WSW 5",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "1687 1029",
+    "output" : "SSE 8",
+    "index" : 6,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx64M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.C",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.08.10",
+  "contestName" : "AtCoder Beginner Contest 001",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

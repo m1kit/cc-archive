@@ -1,0 +1,74 @@
+{
+  "name" : "B - AcCepted",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "AtCoder\n",
+    "output" : "AC\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "ACoder\n",
+    "output" : "WA\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "AcycliC\n",
+    "output" : "WA\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "AtCoCo\n",
+    "output" : "WA\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "Atcoder\n",
+    "output" : "WA\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "AtCOder",
+    "output" : "WA",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "ATCoder",
+    "output" : "WA",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "AtodeCr",
+    "output" : "AC",
+    "index" : 7,
+    "active" : true
+  }, {
+    "input" : "AtoderC",
+    "output" : "WA",
+    "index" : 8,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.BAcCepted",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.08.05",
+  "contestName" : "AtCoder Beginner Contest 104",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,44 @@
+{
+  "name" : "A - AtCoder *** Contest",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "AtCoder Beginner Contest\n",
+    "output" : "ABC\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "AtCoder Snuke Contest\n",
+    "output" : "ASC\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "AtCoder X Contest\n",
+    "output" : "AXC\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.AAtCoderContest",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.26",
+  "contestName" : "AtCoder Beginner Contest 048",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

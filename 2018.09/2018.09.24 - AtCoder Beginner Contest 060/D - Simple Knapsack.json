@@ -1,0 +1,49 @@
+{
+  "name" : "D - Simple Knapsack",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4 6\n2 1\n3 4\n4 10\n3 4\n",
+    "output" : "11\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4 6\n2 1\n3 7\n4 10\n3 6\n",
+    "output" : "13\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4 10\n1 100\n1 100\n1 100\n1 100\n",
+    "output" : "400\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "4 1\n10 100\n10 100\n10 100\n10 100\n",
+    "output" : "0\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.DSimpleKnapsack",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.24",
+  "contestName" : "AtCoder Beginner Contest 060",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

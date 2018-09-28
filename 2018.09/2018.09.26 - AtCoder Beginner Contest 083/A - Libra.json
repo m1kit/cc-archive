@@ -1,0 +1,44 @@
+{
+  "name" : "A - Libra",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 8 7 1\n",
+    "output" : "Left\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 4 5 2\n",
+    "output" : "Balanced\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1 7 6 4\n",
+    "output" : "Right\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.ALibra",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.26",
+  "contestName" : "AtCoder Beginner Contest 083",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

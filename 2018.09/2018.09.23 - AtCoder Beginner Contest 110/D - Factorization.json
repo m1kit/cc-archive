@@ -1,0 +1,54 @@
+{
+  "name" : "D - Factorization",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2 6\n",
+    "output" : "4\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 12\n",
+    "output" : "18\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "100000 1000000000\n",
+    "output" : "957870001\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1 1",
+    "output" : "1",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "2 1\n",
+    "output" : "1\n",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.DFactorization",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.23",
+  "contestName" : "AtCoder Beginner Contest 110",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,39 @@
+{
+  "name" : "D - おいしいたこ焼きの焼き方",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n3 2 1\n2 2 1\n1 1 1\n3\n1\n4\n9",
+    "output" : "3\n9\n14",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n1 1 1\n1 1 1\n9 9 9\n1\n4",
+    "output" : "27",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.D",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.08.13",
+  "contestName" : "AtCoder Beginner Contest 005",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

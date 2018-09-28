@@ -1,0 +1,54 @@
+{
+  "name" : "D - 1",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "345",
+    "output" : "175",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "999999999",
+    "output" : "900000000",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "12",
+    "output" : "5",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1",
+    "output" : "1",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "11",
+    "output" : "4",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.D1",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.24",
+  "contestName" : "AtCoder Beginner Contest 029",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

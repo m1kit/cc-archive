@@ -1,0 +1,44 @@
+{
+  "name" : "A - 居合を終え、青い絵を覆う / UOIAUAI",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "a\n",
+    "output" : "vowel\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "z\n",
+    "output" : "consonant\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "s\n",
+    "output" : "consonant\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.AUOIAUAI",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.26",
+  "contestName" : "AtCoder Beginner Contest 049",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

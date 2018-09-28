@@ -1,0 +1,44 @@
+{
+  "name" : "B - Bitter Alchemy",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 1000\n120\n100\n140\n",
+    "output" : "9\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4 360\n90\n90\n90\n90\n",
+    "output" : "4\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5 3000\n150\n130\n150\n130\n110\n",
+    "output" : "26\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.BBitterAlchemy",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.24",
+  "contestName" : "AtCoder Beginner Contest 095",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,39 @@
+{
+  "name" : "D - Grid Repainting",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 3\n..#\n#..\n...\n",
+    "output" : "2\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "10 37\n.....................................\n...#...####...####..###...###...###..\n..#.#..#...#.##....#...#.#...#.#...#.\n..#.#..#...#.#.....#...#.#...#.#...#.\n.#...#.#..##.#.....#...#.#.###.#.###.\n.#####.####..#.....#...#..##....##...\n.#...#.#...#.#.....#...#.#...#.#...#.\n.#...#.#...#.##....#...#.#...#.#...#.\n.#...#.####...####..###...###...###..\n.....................................\n",
+    "output" : "209\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.DGridRepainting",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.27",
+  "contestName" : "AtCoder Beginner Contest 088",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

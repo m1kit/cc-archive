@@ -1,0 +1,44 @@
+{
+  "name" : "A - Rated for Me",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1199\n",
+    "output" : "ABC\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1200\n",
+    "output" : "ARC\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4208\n",
+    "output" : "AGC\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.ARatedForMe",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.08.05",
+  "contestName" : "AtCoder Beginner Contest 104",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

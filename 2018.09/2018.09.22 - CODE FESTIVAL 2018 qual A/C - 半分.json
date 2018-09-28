@@ -1,0 +1,54 @@
+{
+  "name" : "C - 半分",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "7 1000000000\n100261694256177806 55017793609323647 50568971510512136 98912633370372323 51937770757669401 50688484559490819 108712166294779912",
+    "output" : "322647718",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 100\n1 1 1",
+    "output" : "7",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5 7\n10 12 15 20 30",
+    "output" : "330",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3 2\n0 3 4",
+    "output" : "6\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "2 2\n0 2",
+    "output" : "3",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.C",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.22",
+  "contestName" : "CODE FESTIVAL 2018 qual A",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

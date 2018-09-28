@@ -1,0 +1,44 @@
+{
+  "name" : "C - Colorful Leaderboard",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n2100 2500 2700 2700\n",
+    "output" : "2 2\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5\n1100 1900 2800 3200 3200\n",
+    "output" : "3 5\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "20\n800 810 820 830 840 850 860 870 880 890 900 910 920 930 940 950 960 970 980 990\n",
+    "output" : "1 1\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.CColorfulLeaderboard",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.26",
+  "contestName" : "AtCoder Beginner Contest 064",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

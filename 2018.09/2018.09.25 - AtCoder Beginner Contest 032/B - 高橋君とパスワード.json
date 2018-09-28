@@ -1,0 +1,44 @@
+{
+  "name" : "B - 高橋君とパスワード",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "aaaaaa\n2",
+    "output" : "1",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "abababa\n1",
+    "output" : "2",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "abccba\n2",
+    "output" : "5",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.B",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.25",
+  "contestName" : "AtCoder Beginner Contest 032",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

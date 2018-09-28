@@ -1,0 +1,44 @@
+{
+  "name" : "A - Haiku",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "happy,newyear,enjoy\n",
+    "output" : "happy newyear enjoy\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "haiku,atcoder,tasks\n",
+    "output" : "haiku atcoder tasks\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "abcde,fghihgf,edcba\n",
+    "output" : "abcde fghihgf edcba\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.AHaiku",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.26",
+  "contestName" : "AtCoder Beginner Contest 051",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

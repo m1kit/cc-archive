@@ -1,0 +1,44 @@
+1 C
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+4
+0
+18 5 7
+11 13 17 19 23
+1 5
+1
+1
+13 4 10
+0 3 6 10
+1 0
+1
+2
+21 6 36
+0 5 32 48 69 71
+
+2 4
+
+1
+3
+71 6 405885562
+133510576 158828561 245133494 461153833 840383806 867039395
+2 6
+
+1
+18 src/jp/llv/atcoder
+16 -Xmx256m -Xss64m
+4 Main
+16 jp.llv.atcoder.C
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2018.06.02
+0 
+1
+17 java.util.Scanner
+19 java.io.PrintWriter
+0
+0

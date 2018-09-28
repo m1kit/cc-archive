@@ -1,0 +1,49 @@
+{
+  "name" : "C - Cat Snuke and a Voyage",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 2\n1 2\n2 3\n",
+    "output" : "POSSIBLE\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4 3\n1 2\n2 3\n3 4\n",
+    "output" : "IMPOSSIBLE\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "100000 1\n1 99999\n",
+    "output" : "IMPOSSIBLE\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "5 5\n1 3\n4 5\n2 3\n2 4\n1 4\n",
+    "output" : "POSSIBLE\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.CCatSnukeAndAVoyage",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.20",
+  "contestName" : "AtCoder Beginner Contest 068",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

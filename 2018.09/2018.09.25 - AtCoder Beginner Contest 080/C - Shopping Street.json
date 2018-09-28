@@ -1,0 +1,44 @@
+{
+  "name" : "C - Shopping Street",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1\n1 1 0 1 0 0 0 1 0 1\n3 4 5 6 7 8 9 -2 -3 4 -2\n",
+    "output" : "8\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2\n1 1 1 1 1 0 0 0 0 0\n0 0 0 0 0 1 1 1 1 1\n0 -2 -2 -2 -2 -2 -1 -1 -1 -1 -1\n0 -2 -2 -2 -2 -2 -1 -1 -1 -1 -1\n",
+    "output" : "-2\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3\n1 1 1 1 1 1 0 0 1 1\n0 1 0 1 1 1 1 0 1 0\n1 0 1 1 0 1 0 1 0 1\n-8 6 -2 -8 -8 4 8 7 -6 2 2\n-9 2 0 1 7 -5 0 -2 -6 5 5\n6 -6 7 -9 6 -5 8 0 -9 -7 -7\n",
+    "output" : "23\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.CShoppingStreet",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.25",
+  "contestName" : "AtCoder Beginner Contest 080",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

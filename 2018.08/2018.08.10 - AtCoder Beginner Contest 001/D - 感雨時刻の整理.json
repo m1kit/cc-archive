@@ -1,0 +1,44 @@
+{
+  "name" : "D - 感雨時刻の整理",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6\n1157-1306\n1159-1307\n1158-1259\n1230-1240\n1157-1306\n1315-1317",
+    "output" : "1155-1310\n1315-1320",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n0000-2400",
+    "output" : "0000-2400\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4\n1148-1210\n1323-1401\n1106-1123\n1129-1203",
+    "output" : "1105-1210\n1320-1405\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx64M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.D",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.08.10",
+  "contestName" : "AtCoder Beginner Contest 001",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,49 @@
+{
+  "name" : "C - 入れ替え",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1",
+    "output" : "213456\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5",
+    "output" : "234561\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "22",
+    "output" : "615234",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "100000000",
+    "output" : "345612\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx64M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.C",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.08.13",
+  "contestName" : "AtCoder Beginner Contest 004",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

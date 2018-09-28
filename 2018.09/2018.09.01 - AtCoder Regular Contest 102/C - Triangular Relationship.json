@@ -1,0 +1,63 @@
+{
+  "name" : "C - Triangular Relationship",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 2\n",
+    "output" : "9\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5 3\n",
+    "output" : "1\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "31415 9265\n",
+    "output" : "27\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "35897 932\n",
+    "output" : "114191\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "6 7",
+    "output" : "0",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "2 2",
+    "output" : "2",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "5 2",
+    "index" : 6,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.CTriangularRelationship",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.01",
+  "contestName" : "AtCoder Regular Contest 102",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

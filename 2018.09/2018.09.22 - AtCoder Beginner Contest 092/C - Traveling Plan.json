@@ -1,0 +1,44 @@
+{
+  "name" : "C - Traveling Plan",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n3 5 -1\n",
+    "output" : "12\n8\n10\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5\n1 1 1 2 0\n",
+    "output" : "4\n4\n4\n2\n4\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "6\n-679 -2409 -3258 3095 -3291 -4462\n",
+    "output" : "21630\n21630\n19932\n8924\n21630\n19288\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.CTravelingPlan",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.09.22",
+  "contestName" : "AtCoder Beginner Contest 092",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

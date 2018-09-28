@@ -1,0 +1,44 @@
+{
+  "name" : "D - 高橋くんの苦悩",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "10\n3 2\n4 20\n3 40\n6 100",
+    "output" : "140",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "10\n5 4\n9 10\n3 7\n3 1\n2 6\n4 5",
+    "output" : "18",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "22\n5 3\n5 40\n8 50\n3 60\n4 70\n6 80",
+    "output" : "210\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.D",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.08.20",
+  "contestName" : "AtCoder Beginner Contest 015",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

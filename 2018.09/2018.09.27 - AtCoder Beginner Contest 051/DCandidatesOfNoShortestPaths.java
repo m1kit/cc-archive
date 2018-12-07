@@ -1,7 +1,6 @@
 package jp.llv.atcoder;
 
 import jp.llv.atcoder.lib.io.LightScanner;
-import jp.llv.atcoder.lib.graph.shortestpath.ShortestPathSolver;
 
 import java.io.PrintWriter;
 

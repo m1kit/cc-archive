@@ -1,0 +1,44 @@
+{
+  "name" : "D - 乱数生成",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 2",
+    "output" : "0.48148148148148148148\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 1",
+    "output" : "0.25925925925925925926",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "765 573",
+    "output" : "0.00147697396984624371",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.D",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.07",
+  "contestName" : "AtCoder Beginner Contest 028",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

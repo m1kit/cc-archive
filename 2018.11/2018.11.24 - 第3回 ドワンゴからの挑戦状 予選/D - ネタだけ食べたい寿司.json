@@ -1,0 +1,44 @@
+{
+  "name" : "D - ネタだけ食べたい寿司",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4 1\n5 2\n5 3\n100 50\n5 1",
+    "output" : "105",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5 2\n5 2\n100 50\n5 3\n5 1\n100 3",
+    "output" : "206",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4 5\n280 101\n456 404\n789 707\n1000 999",
+    "output" : "2525",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx525M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.D",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.11.24",
+  "contestName" : "第3回 ドワンゴからの挑戦状 予選",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

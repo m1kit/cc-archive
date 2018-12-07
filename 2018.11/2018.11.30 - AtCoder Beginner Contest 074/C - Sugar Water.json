@@ -1,0 +1,49 @@
+{
+  "name" : "C - Sugar Water",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1 2 10 20 15 200\n",
+    "output" : "110 10\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1 2 1 2 100 1000\n",
+    "output" : "200 100\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "17 19 22 26 55 2802\n",
+    "output" : "2634 934\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "6 10 24 30 1 907",
+    "output" : "600 0",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.CSugarWater",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.11.30",
+  "contestName" : "AtCoder Beginner Contest 074",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

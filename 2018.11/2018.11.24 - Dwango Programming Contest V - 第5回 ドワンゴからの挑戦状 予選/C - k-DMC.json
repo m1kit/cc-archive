@@ -1,0 +1,64 @@
+{
+  "name" : "C - k-DMC",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "18\nDWANGOMEDIACLUSTER\n1\n18\n",
+    "output" : "1\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "18\nDDDDDDMMMMMCCCCCCC\n1\n18\n",
+    "output" : "210\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "54\nDIALUPWIDEAREANETWORKGAMINGOPERATIONCORPORATIONLIMITED\n3\n20 30 40\n",
+    "output" : "0\n1\n2\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3\nDMC\n1\n3",
+    "output" : "1",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "4\nDDMC\n1\n3",
+    "output" : "1",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "4\nDMMC\n1\n3",
+    "output" : "0",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "3\nDMC\n5\n2 3 6 9 12",
+    "output" : "0\n1\n1\n1\n1\n",
+    "index" : 6,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.CKDMC",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.11.24",
+  "contestName" : "Dwango Programming Contest V / 第5回 ドワンゴからの挑戦状 予選",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

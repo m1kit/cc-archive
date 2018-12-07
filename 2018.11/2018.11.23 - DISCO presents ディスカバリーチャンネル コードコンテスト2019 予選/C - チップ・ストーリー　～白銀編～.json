@@ -1,0 +1,49 @@
+{
+  "name" : "C - チップ・ストーリー　～白銀編～",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2",
+    "output" : "2047",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3",
+    "output" : "118097",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "116",
+    "output" : "795526989\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1",
+    "output" : "1",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.C",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.11.23",
+  "contestName" : "DISCO presents ディスカバリーチャンネル コードコンテスト2019 予選",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

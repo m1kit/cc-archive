@@ -1,0 +1,49 @@
+{
+  "name" : "A - Ice Tea Store",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "20 30 70 90\n3\n",
+    "output" : "150\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "10000 1000 100 10\n1\n",
+    "output" : "100\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "10 100 1000 10000\n1\n",
+    "output" : "40\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "12345678 87654321 12345678 87654321\n123456789\n",
+    "output" : "1524157763907942\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.AIceTeaStore",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.05",
+  "contestName" : "AtCoder Grand Contest 019",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

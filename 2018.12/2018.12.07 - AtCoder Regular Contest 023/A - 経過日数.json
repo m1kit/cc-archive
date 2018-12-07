@@ -1,0 +1,49 @@
+{
+  "name" : "A - 経過日数",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1988\n7\n3",
+    "output" : "9449",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n1\n1",
+    "output" : "735369\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2014\n5\n16",
+    "output" : "1",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "2012\n2\n29",
+    "output" : "808\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.A",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.07",
+  "contestName" : "AtCoder Regular Contest 023",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

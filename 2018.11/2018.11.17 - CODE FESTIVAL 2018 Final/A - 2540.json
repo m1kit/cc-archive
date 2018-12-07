@@ -1,0 +1,44 @@
+{
+  "name" : "A - 2540",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4 3\n1 2 1420\n2 3 1120\n3 4 1420",
+    "output" : "2",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4 2\n1 2 1920\n3 4 1125",
+    "output" : "0",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3 3\n1 2 1270\n2 3 1270\n1 3 1270\n",
+    "output" : "3\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.A2540",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.11.17",
+  "contestName" : "CODE FESTIVAL 2018 Final",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

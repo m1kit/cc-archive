@@ -1,0 +1,49 @@
+{
+  "name" : "C - pushpush",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n1 2 3 4\n",
+    "output" : "4 2 1 3\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n1 2 3\n",
+    "output" : "3 1 2\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\n1000000000\n",
+    "output" : "1000000000\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "6\n0 6 7 6 7 0\n",
+    "output" : "0 6 6 0 7 7\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.CPushpush",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.11.28",
+  "contestName" : "AtCoder Beginner Contest 066",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

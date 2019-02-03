@@ -1,0 +1,59 @@
+{
+  "name" : "F. MST Unification",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "8 10\n1 2 1\n2 3 2\n2 4 5\n1 4 2\n6 3 3\n6 1 3\n3 5 2\n3 7 1\n4 8 1\n6 2 4\n",
+    "output" : "1\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4 3\n2 1 3\n4 3 4\n2 4 1\n",
+    "output" : "0\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3 3\n1 2 1\n2 3 2\n1 3 3\n",
+    "output" : "0\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3 3\n1 2 1\n2 3 3\n1 3 3\n",
+    "output" : "1\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "1 0\n",
+    "output" : "0\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "5 6\n1 2 2\n2 3 1\n4 5 3\n2 4 2\n1 4 2\n1 5 3\n",
+    "output" : "2\n",
+    "index" : 5,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.FMSTUnification",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.01.24",
+  "contestName" : "Codeforces Round #535 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "jp.llv.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

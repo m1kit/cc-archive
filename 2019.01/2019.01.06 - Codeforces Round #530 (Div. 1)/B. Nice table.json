@@ -1,0 +1,54 @@
+{
+  "name" : "B. Nice table",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2 2\nAG\nCT\n",
+    "output" : "AG\nCT\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 5\nAGCAG\nAGCAG\nAGCAG\n",
+    "output" : "TGCAT\nCATGC\nTGCAT\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3 5\nAGCTA\nCTAGC\nAGCTT",
+    "output" : "AGCTA\nCTAGC\nAGCTA",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "2 2\nCT\nGA\n",
+    "output" : "CT\nGA\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "4 4\nAGAG\nCTCT\nAAAA\nCTCT",
+    "output" : "AGAG\nCTCT\nAGAG\nCTCT",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.BNiceTable",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.01.06",
+  "contestName" : "Codeforces Round #530 (Div. 1)",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "jp.llv.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,39 @@
+{
+  "name" : "B - Snake Toy",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5 3\n1 2 3 4 5\n",
+    "output" : "12\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "15 14\n50 26 27 21 41 7 42 35 7 5 5 36 39 1 45\n",
+    "output" : "386\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.BSnakeToy",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.08",
+  "contestName" : "AtCoder Beginner Contest 067",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,39 @@
+{
+  "name" : "B. Average Superhero Gang Power",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2 4 6\n4 7\n",
+    "output" : "11.00000000000000000000\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4 2 6\n1 3 2 3\n",
+    "output" : "5.00000000000000000000\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.BAverageSuperheroGangPower",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.04",
+  "contestName" : "CodeCraft-19 and Codeforces Round #537 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "jp.llv.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

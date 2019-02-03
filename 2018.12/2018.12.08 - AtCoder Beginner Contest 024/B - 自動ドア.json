@@ -1,0 +1,44 @@
+{
+  "name" : "B - 自動ドア",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "10 100000\n3\n31\n314\n3141\n31415\n314159\n400000\n410000\n500000\n777777",
+    "output" : "517253",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5 10\n20\n100\n105\n217\n314",
+    "output" : "45",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "10 10\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10",
+    "output" : "19",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.B",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.08",
+  "contestName" : "AtCoder Beginner Contest 024",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

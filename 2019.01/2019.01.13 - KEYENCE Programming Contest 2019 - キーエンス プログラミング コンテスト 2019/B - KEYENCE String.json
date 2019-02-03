@@ -1,0 +1,49 @@
+{
+  "name" : "B - KEYENCE String",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "keyofscience\n",
+    "output" : "YES\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "mpyszsbznf\n",
+    "output" : "NO\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "ashlfyha\n",
+    "output" : "NO\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "keyence\n",
+    "output" : "YES\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.BKEYENCEString",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.01.13",
+  "contestName" : "KEYENCE Programming Contest 2019 / キーエンス プログラミング コンテスト 2019",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "jp.llv.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

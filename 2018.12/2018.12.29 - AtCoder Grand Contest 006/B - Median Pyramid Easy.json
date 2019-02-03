@@ -1,0 +1,52 @@
+{
+  "name" : "B - Median Pyramid Easy",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4 4\n",
+    "output" : "Yes\n1\n6\n3\n7\n4\n5\n2\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2 1\n",
+    "output" : "No\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2 2\n",
+    "output" : "Yes\n1 2 3",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3 4\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "2 2\n",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.BMedianPyramidEasy",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.29",
+  "contestName" : "AtCoder Grand Contest 006",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

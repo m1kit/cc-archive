@@ -1,0 +1,54 @@
+{
+  "name" : "C - 4-adjacent",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n1 10 100\n",
+    "output" : "Yes\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4\n1 2 3 4\n",
+    "output" : "No\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3\n1 4 1\n",
+    "output" : "Yes\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "2\n1 1\n",
+    "output" : "No\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "6\n2 7 1 8 2 8\n",
+    "output" : "Yes\n",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.C4Adjacent",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.29",
+  "contestName" : "AtCoder Regular Contest 080",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

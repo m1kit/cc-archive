@@ -1,0 +1,64 @@
+{
+  "name" : "F. Lunar New Year and a Recursive Sequence",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n2 3 5\n4 16\n",
+    "output" : "4\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5\n4 7 1 5 6\n7 14187219\n",
+    "output" : "6\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "8\n2 3 5 6 1 7 9 10\n23333 1\n",
+    "output" : "1\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1\n2\n88888 66666\n",
+    "output" : "-1\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "3\n998244352 998244352 998244352\n4 2\n",
+    "output" : "-1\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "10\n283 463 213 777 346 201 463 283 102 999\n2333333 6263423\n",
+    "output" : "382480067\n",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "100\n271370845 77107464 142805278 102675266 65089252 961095416 885503172 615635361 969481959 991961939 14348209 742123658 94382373 204117031 361758855 552807866 140617794 613879811 441472012 480314293 601414471 306496126 340041130 784672323 116100640 519538864 500271087 975116015 459362845 994254262 675935502 365924743 86591089 880760627 33083229 671355039 224424118 139948490 811887061 434004494 429565287 616983973 443379861 646597486 682623077 831683313 480995679 733167264 445705587 446264927 891864090 718020166 182632634 822113701 828406606 869995080 40296262 488137723 857687211 423324752 284063622 9023135 111825282 965188685 735889872 488178001 659398474 966604020 830079194 739709655 640931869 736952378 630757954 122519930 262783800 889791451 131030792 544915336 279922046 212030935 491383823 674172880 888664566 275587311 653380255 974950953 549268041 730609964 745674982 841768939 964939589 320135257 290964082 199932020 188186972 389831300 693127352 656162212 238907685 590705281\n1000000000 998244352\n",
+    "output" : "998244352\n",
+    "index" : 6,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.FLunarNewYearAndARecursiveSequence",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.01.31",
+  "contestName" : "Codeforces Round #536 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "jp.llv.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

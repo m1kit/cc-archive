@@ -1,0 +1,41 @@
+{
+  "name" : "FriendlyRooks",
+  "signature" : {
+    "name" : "getMinFriendlyColoring",
+    "result" : "int",
+    "arguments" : [ "String[]" ],
+    "argumentNames" : [ "board" ]
+  },
+  "tests" : [ {
+    "arguments" : [ ".R.RфR.R.ф.R.R" ],
+    "result" : "2",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "RRRRRRRRRRRRRRR" ],
+    "result" : "1",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "...............ф...............ф...............ф...............ф...............ф..............." ],
+    "result" : "0",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "....R..........ф.R...........R.ф....R..........ф.R........R....ф....R..........ф....R.....R...." ],
+    "result" : "1",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "R.........Rф.R.......R.ф..R.....R..ф...R...R...ф....R.R....ф.....R.....ф....R.R....ф...R...R...ф..R.....R..ф.R.......R.фR.........R" ],
+    "result" : "6",
+    "index" : 4,
+    "active" : true
+  } ],
+  "date" : "2018.12.10",
+  "contestName" : "TopCoder Open Round #Match",
+  "testClasses" : [ ],
+  "fqn" : "jp.llv.atcoder.FriendlyRooks",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

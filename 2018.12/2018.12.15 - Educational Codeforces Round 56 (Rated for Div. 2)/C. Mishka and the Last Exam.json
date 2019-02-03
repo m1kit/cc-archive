@@ -1,0 +1,44 @@
+{
+  "name" : "C. Mishka and the Last Exam",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n5 6\n",
+    "output" : "2 3 3 3\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6\n2 1 2\n",
+    "output" : "0 0 1 1 1 2 \n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "6\n6 2 4\n",
+    "output" : "0 0 2 2 2 6",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.CMishkaAndTheLastExam",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.15",
+  "contestName" : "Educational Codeforces Round 56 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,64 @@
+{
+  "name" : "C - Alternating Path",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 3\n.#.\n..#\n#..\n",
+    "output" : "10\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2 4\n....\n....\n",
+    "output" : "0\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4 3\n###\n###\n...\n###\n",
+    "output" : "6\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "2 1\n#\n.",
+    "output" : "1",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "3 1\n#\n.\n#\n",
+    "output" : "2\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "3 3\n###\n...\n#.#\n",
+    "output" : "13\n",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "3 3\n#.#\n...\n#.#\n",
+    "output" : "16\n",
+    "index" : 6,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.CAlternatingPath",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.01.12",
+  "contestName" : "AISing Programming Contest 2019 / エイシング プログラミング コンテスト 2019",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "jp.llv.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

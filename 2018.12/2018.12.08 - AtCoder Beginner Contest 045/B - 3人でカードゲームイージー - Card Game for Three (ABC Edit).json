@@ -1,0 +1,39 @@
+{
+  "name" : "B - 3人でカードゲームイージー / Card Game for Three (ABC Edit)",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "aca\naccc\nca\n",
+    "output" : "A\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "abcb\naacb\nbccc\n",
+    "output" : "C\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.B3CardGameForThreeABCEdit",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.08",
+  "contestName" : "AtCoder Beginner Contest 045",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,49 @@
+{
+  "name" : "B - Similar Arrays",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n2 3\n",
+    "output" : "7\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n3 3 3\n",
+    "output" : "26\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\n100\n",
+    "output" : "1\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "10\n90 52 56 71 44 8 13 30 57 84\n",
+    "output" : "58921\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.BSimilarArrays",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.01.12",
+  "contestName" : "CODE FESTIVAL 2017 qual C",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "jp.llv.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

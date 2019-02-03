@@ -1,0 +1,39 @@
+{
+  "name" : "C - データ構造",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "12\n1 8932\n1 183450\n1 34323\n1 81486\n1 127874\n1 114850\n1 55277\n1 112706\n2 3\n1 39456\n1 52403\n2 4",
+    "output" : "55277\n52403",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5\n1 11\n1 29\n1 89\n2 2\n2 2",
+    "output" : "29\n89",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.C",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.30",
+  "contestName" : "AtCoder Regular Contest 033",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

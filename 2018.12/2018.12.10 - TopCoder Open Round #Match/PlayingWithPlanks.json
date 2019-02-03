@@ -1,0 +1,46 @@
+{
+  "name" : "PlayingWithPlanks",
+  "signature" : {
+    "name" : "canItBeDone",
+    "result" : "String",
+    "arguments" : [ "int", "int" ],
+    "argumentNames" : [ "plankLength", "pieces" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "9", "3" ],
+    "result" : "possible",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "12", "1" ],
+    "result" : "possible",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "9", "4" ],
+    "result" : "impossible",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "10", "4" ],
+    "result" : "possible",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "750932", "901" ],
+    "result" : "possible",
+    "index" : 4,
+    "active" : true
+  }, {
+    "arguments" : [ "54", "10" ],
+    "result" : "impossible",
+    "index" : 5,
+    "active" : true
+  } ],
+  "date" : "2018.12.10",
+  "contestName" : "TopCoder Open Round #Match",
+  "testClasses" : [ ],
+  "fqn" : "jp.llv.atcoder.PlayingWithPlanks",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

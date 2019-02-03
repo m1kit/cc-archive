@@ -1,0 +1,49 @@
+{
+  "name" : "B - ss",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "abaababaab\n",
+    "output" : "6\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "xxxx\n",
+    "output" : "2\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "abcabcabcabc\n",
+    "output" : "6\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "akasakaakasakasakaakas\n",
+    "output" : "14\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.BSs",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.08",
+  "contestName" : "AtCoder Beginner Contest 066",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

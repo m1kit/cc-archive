@@ -1,0 +1,49 @@
+{
+  "name" : "B - OddString",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "atcoder\n",
+    "output" : "acdr\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "aaaa\n",
+    "output" : "aa\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "z\n",
+    "output" : "z\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "fukuokayamaguchi\n",
+    "output" : "fkoaaauh\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.BOddString",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.08",
+  "contestName" : "AtCoder Beginner Contest 072",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

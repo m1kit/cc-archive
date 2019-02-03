@@ -1,0 +1,54 @@
+{
+  "name" : "A. Right-Left Cipher",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "ncteho\n",
+    "output" : "techno\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "erfdcoeocs\n",
+    "output" : "codeforces\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "z\n",
+    "output" : "z\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "te",
+    "output" : "te",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "cap",
+    "output" : "apc",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.ARightLeftCipher",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2018.12.23",
+  "contestName" : "Codeforces Round #528 (Div. 2, based on Technocup 2019 Elimination Round 4)",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

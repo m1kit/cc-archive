@@ -1,0 +1,34 @@
+{
+  "name" : "A - Abundant Resources",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "10\n61049214 115057849 356385814 932678664 505961980 877482753 476308661 571830644 210047210 873430114",
+    "output" : "932678664\n1438640644\n2316123397\n2792432058\n3364262702\n3720648516\n4447740026\n4804125840\n4919183689\n4980232903",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.AAbundantResources",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.17",
+  "contestName" : "全国統一プログラミング王決定戦本戦",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "jp.llv.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

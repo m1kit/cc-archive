@@ -1,0 +1,43 @@
+{
+  "name" : "C - Coloring Torus",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n",
+    "output" : "3\n1 1 1\n1 1 1\n2 2 2\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "9\n",
+    "output" : "3\n1 2 3\n4 5 6\n7 8 9\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.CColoringTorus",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.14",
+  "contestName" : "AtCoder Grand Contest 030",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "jp.llv.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

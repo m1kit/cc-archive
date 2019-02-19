@@ -3,7 +3,7 @@ package jp.llv.atcoder;
 import jp.llv.atcoder.lib.io.LightScanner;
 import jp.llv.atcoder.lib.io.LightWriter;
 import jp.llv.atcoder.lib.debug.Debug;
-import jp.llv.atcoder.lib.math.geo.Vec2i;
+import jp.llv.atcoder.lib.geo.Vec2i;
 
 import java.util.*;
 

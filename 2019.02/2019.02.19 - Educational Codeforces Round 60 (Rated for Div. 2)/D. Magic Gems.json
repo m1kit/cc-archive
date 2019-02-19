@@ -1,0 +1,80 @@
+{
+  "name" : "D. Magic Gems",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 2\n",
+    "output" : "3\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4 2\n",
+    "output" : "5\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5 2\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "6 2\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "7 2\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "3 3\n",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "4 3\n",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "5 3\n",
+    "index" : 7,
+    "active" : true
+  }, {
+    "input" : "6 3\n",
+    "index" : 8,
+    "active" : true
+  }, {
+    "input" : "7 3\n",
+    "index" : 9,
+    "active" : true
+  }, {
+    "input" : "8 3\n",
+    "index" : 10,
+    "active" : true
+  }, {
+    "input" : "1000000000000000000 3\n",
+    "output" : "615472476",
+    "index" : 11,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.DMagicGems",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.02.19",
+  "contestName" : "Educational Codeforces Round 60 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "jp.llv.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

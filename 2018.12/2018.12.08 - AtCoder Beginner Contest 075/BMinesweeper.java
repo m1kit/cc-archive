@@ -1,7 +1,7 @@
 package jp.llv.atcoder;
 
 import jp.llv.atcoder.lib.io.LightScanner;
-import jp.llv.atcoder.lib.math.geo.GeoWalker;
+import jp.llv.atcoder.lib.geo.GeoWalker;
 
 import java.io.PrintWriter;
 import java.util.concurrent.atomic.AtomicInteger;

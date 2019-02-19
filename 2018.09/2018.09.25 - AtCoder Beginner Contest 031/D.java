@@ -33,7 +33,7 @@ public class D {
                 t /= 3;
             }
             Arrays.fill(abbr, null);
-            // System.out.println(Arrays.toString(length));
+            // System.out.println(Arrays.toString(abs));
 
             for (int j = 0; j < n; j++) {
                 if (w[j].length() != Arrays.stream(v[j]).map(d -> length[d]).sum()) {

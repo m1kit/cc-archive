@@ -1,0 +1,44 @@
+{
+  "name" : "B - 音楽ゲーム",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "15\n.........\n.x.......\n.........\n...x.....\n.........\n.......o.\n.......o.\n.......o.\n.........\n..x.....o\n........o\n........o\n....x...o\n.x......o\n........o\n",
+    "output" : "7\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6\n..o..x.o.\n..o..x.o.\n..x..o.o.\n..o..o.o.\n..o..x.o.\n..o..x.o.\n",
+    "output" : "9\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2\n.........\n.........\n",
+    "output" : "0\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx64M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.B",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.01.18",
+  "contestName" : "AtCoder Regular Contest 016",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

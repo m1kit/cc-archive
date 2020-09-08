@@ -1,0 +1,44 @@
+{
+  "name" : "A - Taro vs. Jiro",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2 1 3\nBR\n1 2",
+    "output" : "Second\nFirst\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2 1 1000000000000000000\nBR\n1 2",
+    "output" : "First\nSecond",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5 7 9\nBRRBR\n3 1\n5 2\n4 2\n2 1\n5 4\n5 1\n3 2",
+    "output" : "Second\nFirst\nFirst\nSecond\nFirst",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.ATaroVsJiro",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.11",
+  "contestName" : "第5回 ドワンゴからの挑戦状 本選（オープンコンテスト）",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

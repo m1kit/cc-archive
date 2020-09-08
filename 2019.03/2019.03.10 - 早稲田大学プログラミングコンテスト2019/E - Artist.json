@@ -1,0 +1,44 @@
+{
+  "name" : "E - Artist",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 3\n101\n010\n100\n",
+    "output" : "1\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2 3\n101\n010\n",
+    "output" : "2\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "16 26\n00000000000000000000000000\n00000000000000000000000000\n00000000111111111111110000\n00000011111111111111110000\n00001111110000000000000000\n00001111110000000000000000\n00001111110000000000000000\n00001111110000000000000000\n00001111110000000000000000\n00001111110000000000000000\n00001111110000000000000000\n00001111110000000000000000\n00000011111111111111110000\n00000000111111111111110000\n00000000000000000000000000\n00000000000000000000000000\n",
+    "output" : "0\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.EArtist",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.10",
+  "contestName" : "早稲田大学プログラミングコンテスト2019",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "jp.llv.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,41 @@
+{
+  "name" : "Indicium",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n3 6\n2 3\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "10\n5 25\n5 24\n5 23\n5 22\n5 21\n5 20\n5 19\n5 18\n5 17\n5 16\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\n5 25\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Solution",
+  "taskClass" : "dev.mikit.atcoder.Indicium",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.04.05",
+  "contestName" : "GCJ 2020 Qual",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

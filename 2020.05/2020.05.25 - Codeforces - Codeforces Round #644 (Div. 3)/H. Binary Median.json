@@ -1,0 +1,44 @@
+{
+  "name" : "H. Binary Median",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n3 3\n010\n001\n111\n4 3\n000\n111\n100\n011\n1 1\n1\n1 1\n0\n3 2\n00\n01\n10\n",
+    "output" : "100\n010\n0\n1\n11\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n4 3\n000\n111\n100\n011",
+    "output" : "010\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\n2 3\n000\n100\n",
+    "output" : "011",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.HBinaryMedian",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.05.25",
+  "contestName" : "Codeforces - Codeforces Round #644 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

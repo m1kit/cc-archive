@@ -1,0 +1,44 @@
+{
+  "name" : "D - Menagerie",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6\nooxoox\n",
+    "output" : "SSSWWS\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\noox\n",
+    "output" : "-1\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "10\noxooxoxoox\n",
+    "output" : "SSWWSSSWWS\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.DMenagerie",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.30",
+  "contestName" : "AtCoder Regular Contest 069",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

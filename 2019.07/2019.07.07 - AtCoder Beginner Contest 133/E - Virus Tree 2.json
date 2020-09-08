@@ -1,0 +1,44 @@
+{
+  "name" : "E - Virus Tree 2",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4 3\n1 2\n2 3\n3 4\n",
+    "output" : "6\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5 4\n1 2\n1 3\n1 4\n4 5\n",
+    "output" : "48\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "16 22\n12 1\n3 1\n4 16\n7 12\n6 2\n2 15\n5 16\n14 16\n10 11\n3 10\n3 13\n8 6\n16 8\n9 12\n4 3\n",
+    "output" : "271414432\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.EVirusTree2",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.07.07",
+  "contestName" : "AtCoder Beginner Contest 133",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

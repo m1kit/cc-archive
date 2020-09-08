@@ -1,0 +1,44 @@
+{
+  "name" : "F - Capture",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n10 20\n40 50\n60 30\n70 40\n90 10\n",
+    "output" : "90\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5\n10 2\n40 5\n60 3\n70 4\n90 1\n",
+    "output" : "5\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4\n1 100\n3 200\n999999999999999 150\n1000000000000000 150\n",
+    "output" : "299\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.FCapture",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.13",
+  "contestName" : "Code Festival Team Relay (Parallel)",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,64 @@
+{
+  "name" : "B - Backfront",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n1\n3\n2\n4\n",
+    "output" : "2\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6\n3\n2\n5\n1\n4\n6\n",
+    "output" : "4\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "8\n6\n3\n1\n2\n7\n4\n8\n5\n",
+    "output" : "5\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "5\n1 2 3 4 5\n",
+    "output" : "0\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "5\n5 4 3 2 1\n",
+    "output" : "4\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "5\n5 2 3 4 1\n",
+    "output" : "2\n",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "5\n2 5 3 4 1\n",
+    "output" : "2\n",
+    "index" : 6,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.BBackfront",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.01.12",
+  "contestName" : "AtCoder Grand Contest 024",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

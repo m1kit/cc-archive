@@ -1,0 +1,59 @@
+{
+  "name" : "D - Semi Common Multiple",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2 50\n6 10\n",
+    "output" : "2\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 100\n14 22 40\n",
+    "output" : "0\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5 1000000000\n6 6 2 6 2\n",
+    "output" : "166666667\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3 13\n2 2 2\n",
+    "output" : "7\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "1 6\n4\n",
+    "output" : "2\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "2 6\n2 4\n",
+    "output" : "0\n",
+    "index" : 5,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.DSemiCommonMultiple",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.01.10",
+  "contestName" : "AtCoder Beginner Contest 150",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

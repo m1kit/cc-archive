@@ -1,0 +1,64 @@
+{
+  "name" : "F. RC Kaboom Show",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n3 -1 -1 1 2\n2 3 -3 -2 10\n-4 2 1 -2 1\n-2 -2 -1 2 4\n",
+    "output" : "0.585902082262898\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2\n-1 1 -1 1 200\n1 1 1 5 200\n",
+    "output" : "No show :(\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2\n0 0 1 0 1\n2 0 -1 0 1\n",
+    "output" : "1.000000000000000\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "2\n0 0 1 0 1\n2 0 1 0 1\n",
+    "output" : "2.000000000000000\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "2\n0 0 -1 0 1\n2 0 -1 0 1\n",
+    "output" : "2.000000000000000\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "2\n0 0 -1 0 1\n2 0 1 0 1\n",
+    "output" : "No show :(\n",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "3\n-8 -5 2 3 1\n-6 0 -6 -2 2\n-2 0 -4 -3 3\n",
+    "output" : "2.222222222222222",
+    "index" : 6,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.FRCKaboomShow",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.05.29",
+  "contestName" : "Codeforces - Educational Codeforces Round 88 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

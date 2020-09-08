@@ -1,0 +1,34 @@
+{
+  "name" : "BAlchemy",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "TASK_ID",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "TASK_ID",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6\n3\nBAB\n3\nBBB\n5\nAABBA\n7\nBAAABAA\n11\nBBBAABAAAAB\n11\nBABBBABBABB",
+    "output" : "Case #1: Y\nCase #2: N\nCase #3: Y\nCase #4: N\nCase #5: Y\nCase #6: N\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.BAlchemy",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.07.25",
+  "contestName" : "Facebook Hacker Cup 2020",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

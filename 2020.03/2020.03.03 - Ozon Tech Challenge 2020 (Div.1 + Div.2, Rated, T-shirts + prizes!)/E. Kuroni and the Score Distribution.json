@@ -1,0 +1,76 @@
+{
+  "name" : "E. Kuroni and the Score Distribution",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5 3\n",
+    "output" : "4 5 9 13 18\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "8 0\n",
+    "output" : "10 11 12 13 14 15 16 17\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4 10\n",
+    "output" : "-1\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "7 10\n",
+    "output" : "-1\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "7 9\n",
+    "output" : "1 2 3 4 5 6 7\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "5 3\n",
+    "output" : "1 2 3 4 6\n",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "5000 1",
+    "output" : "",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "5000 1230321",
+    "index" : 7,
+    "active" : true
+  }, {
+    "input" : "5000 6247334\n\n\n",
+    "index" : 8,
+    "active" : true
+  }, {
+    "input" : "5000 0\n",
+    "index" : 9,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.EKuroniAndTheScoreDistribution",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.03.03",
+  "contestName" : "Ozon Tech Challenge 2020 (Div.1 + Div.2, Rated, T-shirts + prizes!)",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

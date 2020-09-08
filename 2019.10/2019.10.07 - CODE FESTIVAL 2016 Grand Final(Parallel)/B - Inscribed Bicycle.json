@@ -1,0 +1,39 @@
+{
+  "name" : "B - Inscribed Bicycle",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "0 0\n1 1\n2 0\n",
+    "output" : "0.292893218813\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 1\n1 5\n4 9\n",
+    "output" : "0.889055514217\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.BInscribedBicycle",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.10.07",
+  "contestName" : "CODE FESTIVAL 2016 Grand Final(Parallel)",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

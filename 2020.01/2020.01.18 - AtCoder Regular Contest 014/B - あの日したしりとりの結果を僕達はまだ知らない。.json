@@ -1,0 +1,44 @@
+{
+  "name" : "B - あの日したしりとりの結果を僕達はまだ知らない。",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\nab\nba\nab\ncb\n",
+    "output" : "LOSE\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\natcoder\nredcoder\nrecorder\n",
+    "output" : "DRAW\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4\nab\nbc\nca\nab\n",
+    "output" : "WIN\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx64M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.B",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.01.18",
+  "contestName" : "AtCoder Regular Contest 014",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

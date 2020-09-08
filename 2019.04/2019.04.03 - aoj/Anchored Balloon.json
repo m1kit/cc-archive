@@ -1,0 +1,39 @@
+{
+  "name" : "Anchored Balloon",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n10 10 20\n10 -10 20\n-10 10 120\n1\n10 10 16\n2\n10 10 20\n10 -10 20\n2\n100 0 101\n-90 0 91\n2\n0 0 53\n30 40 102\n3\n10 10 20\n10 -10 20\n-10 -10 20\n3\n1 5 13\n5 -3 13\n-3 -3 13\n3\n98 97 168\n-82 -80 193\n-99 -96 211\n4\n90 -100 160\n-80 -80 150\n90 80 150\n80 80 245\n4\n85 -90 290\n-80 -80 220\n-85 90 145\n85 90 170\n5\n0 0 4\n3 0 5\n-3 0 5\n0 3 5\n0 -3 5\n10\n95 -93 260\n-86 96 211\n91 90 177\n-81 -80 124\n-91 91 144\n97 94 165\n-90 -86 194\n89 85 167\n-93 -80 222\n92 -84 218\n0\n",
+    "output" : "17.3205081\n16.0000000\n17.3205081\n13.8011200\n53.0000000\n14.1421356\n12.0000000\n128.3928757\n94.1879092\n131.1240816\n4.0000000\n72.2251798\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4\n90 -100 160\n-80 -80 150\n90 80 150\n80 80 245\n3\n90 -100 160\n-80 -80 150\n90 80 150\n0\n",
+    "output" : "94.1879092\n94.1879092\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.AnchoredBalloon",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.03",
+  "contestName" : "aoj",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

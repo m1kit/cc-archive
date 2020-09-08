@@ -1,0 +1,44 @@
+{
+  "name" : "I - 部品調達 / Procurement",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 4\nYYY 100\nYYN 20\nYNY 10\nNYY 25\n",
+    "output" : "30\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5 4\nYNNNN 10\nNYNNN 10\nNNYNN 10\nNNNYN 10\n",
+    "output" : "-1\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "10 14\nYNNYNNNYYN 774472905\nYYNNNNNYYY 75967554\nNNNNNNNNNN 829389188\nNNNNYYNNNN 157257407\nYNNYNNYNNN 233604939\nNYYNNNNNYY 40099278\nNNNNYNNNNN 599672237\nNNNYNNNNYY 511018842\nNNNYNNYNYN 883299962\nNNNNNNNNYN 883093359\nNNNNNYNYNY 54742561\nNYNNYYYNNY 386272705\nNNNNYYNNNN 565075143\nNNYNYNNNYN 123300589\n",
+    "output" : "451747367\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.IProcurement",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.12.31",
+  "contestName" : "第一回 アルゴリズム実技検定 過去問",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

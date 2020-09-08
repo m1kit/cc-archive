@@ -1,0 +1,44 @@
+{
+  "name" : "C - おやつ",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4 100\n30 50\n40 40\n50 100\n60 80\n",
+    "output" : "190\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5 100\n40 10\n30 50\n60 80\n20 40\n20 70\n",
+    "output" : "200\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "10 654\n76 54\n62 19\n8 5\n29 75\n28 4\n76 16\n96 24\n79 30\n20 64\n23 56\n",
+    "output" : "347\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.C",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.01.15",
+  "contestName" : "AtCoder Regular Contest 042",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

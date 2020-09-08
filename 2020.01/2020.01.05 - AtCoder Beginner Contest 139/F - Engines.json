@@ -1,0 +1,79 @@
+{
+  "name" : "F - Engines",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n0 10\n5 -5\n-5 -5\n",
+    "output" : "10.000000000000000000000000000000000000000000000000\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5\n1 1\n1 0\n0 1\n-1 0\n0 -1\n",
+    "output" : "2.828427124746190097603377448419396157139343750753\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5\n1 1\n2 2\n3 3\n4 4\n5 5\n",
+    "output" : "21.213203435596425732025330863145471178545078130654\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3\n0 0\n0 1\n1 0\n",
+    "output" : "1.414213562373095048801688724209698078569671875376\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "1\n90447 91000\n",
+    "output" : "128303.000000000000000000000000000000000000000000000000\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "2\n96000 -72000\n-72000 54000\n",
+    "output" : "120000.000000000000000000000000000000000000000000000000\n",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "10\n1 2\n3 4\n5 6\n7 8\n9 10\n11 12\n13 14\n15 16\n17 18\n19 20\n",
+    "output" : "148.660687473185055226120082139313966514489855137208\n",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "8\n0 1\n1 1\n1 0\n1 -1\n0 -1\n-1 -1\n-1 0\n-1 1\n",
+    "output" : "1.414213",
+    "index" : 7,
+    "active" : true
+  }, {
+    "input" : "1\n1 0\n",
+    "output" : "1\n",
+    "index" : 8,
+    "active" : true
+  }, {
+    "input" : "2\n1 0\n-1 0\n",
+    "output" : "1\n",
+    "index" : 9,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.FEngines",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.01.05",
+  "contestName" : "AtCoder Beginner Contest 139",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

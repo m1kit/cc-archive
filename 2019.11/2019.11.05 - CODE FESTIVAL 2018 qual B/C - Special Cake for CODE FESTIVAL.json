@@ -1,0 +1,44 @@
+{
+  "name" : "C - Special Cake for CODE FESTIVAL",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n",
+    "output" : "X..\n..X\nX..\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6\n",
+    "output" : "X.X..X\n..X.X.\nX..X..\n.X...X\nX..X..\n.X..X.\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "21\n",
+    "output" : "XXXXXXXXXXXXXXXXXXXXX\nXXXXXXXXXXXXXXXXXXXXX\nX....X....X....X....X\nX.XXXX.XX.XX.X.X.XXXX\nX.XXXX.XX.XX.X.X....X\nX.XXXX.XX.XX.X.X.XXXX\nX....X....X....X....X\nXXXXXXXXXXXXXXXXXXXXX\nX....X....XX...X....X\nX.XXXX.XXXX.XXXXXX.XX\nX....X....XX..XXXX.XX\nX.XXXX.XXXXXXX.XXX.XX\nX.XXXX....X...XXXX.XX\nXXXXXXXXXXXXXXXXXXXXX\nXXX.XX.XX.X....X.XXXX\nXXX.XX.XX.X.XX.X.XXXX\nXXX.XX.XX.X....X.XXXX\nXXX.XXX..XX.XX.X.XXXX\nXXX.XXXX.XX.XX.X....X\nXXXXXXXXXXXXXXXXXXXXX\nXXXXXXXXXXXXXXXXXXXXX\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.CSpecialCakeForCODEFESTIVAL",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.11.05",
+  "contestName" : "CODE FESTIVAL 2018 qual B",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

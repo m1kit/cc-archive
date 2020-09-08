@@ -1,0 +1,49 @@
+{
+  "name" : "F - Xor Shift",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n0 2 1\n1 2 3\n",
+    "output" : "1 3\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5\n0 0 0 0 0\n2 2 2 2 2\n",
+    "output" : "0 2\n1 2\n2 2\n3 2\n4 2\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "6\n0 1 3 7 6 4\n1 5 4 6 2 3\n",
+    "output" : "2 2\n5 5\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "2\n1 2\n0 0\n",
+    "output" : "\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.FXorShift",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.01.10",
+  "contestName" : "AtCoder Beginner Contest 150",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

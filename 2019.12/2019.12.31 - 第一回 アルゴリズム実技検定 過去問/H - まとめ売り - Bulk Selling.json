@@ -1,0 +1,44 @@
+{
+  "name" : "H - まとめ売り / Bulk Selling",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n5 3 3 5\n6\n1 2 1\n2 2\n2 2\n3 100\n3 1\n1 1 3\n",
+    "output" : "9\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "10\n241 310 105 738 405 490 158 92 68 20\n20\n2 252\n1 4 36\n2 69\n1 5 406\n3 252\n1 3 8\n1 10 10\n3 11\n1 4 703\n3 1\n2 350\n3 10\n2 62\n2 3\n2 274\n1 2 1\n3 126\n1 4 702\n3 6\n2 174\n",
+    "output" : "390\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2\n3 4\n3\n1 2 9\n2 4\n3 4\n",
+    "output" : "0\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.HBulkSelling",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.12.31",
+  "contestName" : "第一回 アルゴリズム実技検定 過去問",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,114 @@
+{
+  "name" : "B. The World Is Just a Programming Task (Hard Version)",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "10\n()()())(()\n",
+    "output" : "5\n7 8\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "12\n)(()(()())()\n",
+    "output" : "4\n5 10\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "6\n)))(()\n",
+    "output" : "0\n1 1\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "10\n)()())(()(\n",
+    "output" : "5\n6 7\n\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "12\n(()())(()())\n",
+    "output" : "3\n2 3\n\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "4\n()()\n",
+    "output" : "2\n1 1\n",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "2\n()\n",
+    "output" : "1\n1 1\n",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "1\n(\n",
+    "output" : "0\n1 1\n",
+    "index" : 7,
+    "active" : true
+  }, {
+    "input" : "2\n((\n",
+    "output" : "0\n1 1\n",
+    "index" : 8,
+    "active" : true
+  }, {
+    "input" : "8\n((()))()\n",
+    "output" : "4\n2 5",
+    "index" : 9,
+    "active" : true
+  }, {
+    "input" : "8\n()))()((\n",
+    "output" : "4\n3 8\n",
+    "index" : 10,
+    "active" : true
+  }, {
+    "input" : "8\n))()((()\n",
+    "output" : "4\n1 6\n",
+    "index" : 11,
+    "active" : true
+  }, {
+    "input" : "8\n(()())()\n",
+    "output" : "3\n2 3\n",
+    "index" : 12,
+    "active" : true
+  }, {
+    "input" : "20\n(((((((((())))))))))\n",
+    "output" : "3\n2 19",
+    "index" : 13,
+    "active" : true
+  }, {
+    "input" : "8\n(((())))\n",
+    "output" : "3\n2 7\n",
+    "index" : 14,
+    "active" : true
+  }, {
+    "input" : "10\n()(()()())",
+    "output" : "4\n3 10\n",
+    "index" : 15,
+    "active" : true
+  }, {
+    "input" : "10\n(())((()))",
+    "output" : "4\n6 9\n",
+    "index" : 16,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.BTheWorldIsJustAProgrammingTaskHardVersion",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.10.20",
+  "contestName" : "Codeforces Round #594 (Div. 1)",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

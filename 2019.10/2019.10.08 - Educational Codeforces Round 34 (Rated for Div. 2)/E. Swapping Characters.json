@@ -1,0 +1,59 @@
+{
+  "name" : "E. Swapping Characters",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 4\nabac\ncaab\nacba\n",
+    "output" : "acab\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 4\nkbbu\nkbub\nubkb\n",
+    "output" : "kbub\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5 4\nabcd\ndcba\nacbd\ndbca\nzzzz\n",
+    "output" : "-1\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1 5\nabcde",
+    "output" : "bacde\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "2 5\nabcde\nedcba\n",
+    "output" : "adcbe\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "2 5\nabcde\nbacde",
+    "output" : "-1\n",
+    "index" : 5,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.ESwappingCharacters",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.10.08",
+  "contestName" : "Educational Codeforces Round 34 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,49 @@
+{
+  "name" : "D - チップ・ストーリー　～黄金編～",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n5\n4\n1\n5\n7\n4\n9\n7\n5\n3\n13\n12\n11\n10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n25\n25\n25\n25\n25\n",
+    "output" : "25\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "500\n30\n33\n36\n39\n42\n45\n48\n51\n54\n57\n69\n63\n66\n69\n72\n75\n78\n81\n84\n87\n90\n93\n96\n99\n102\n105\n108\n111\n",
+    "output" : "invalid\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "23\n27\n35\n31\n36\n29\n55\n63\n23\n61\n49\n47\n86\n69\n86\n111\n63\n113\n63\n71\n104\n93\n95\n95\n111\n125\n167\n111\n111\n",
+    "output" : "201811232111\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "14\n25\n20\n13\n31\n41\n30\n49\n2\n61\n68\n65\n67\n65\n56\n65\n65\n83\n27\n81\n107\n101\n106\n41\n126\n93\n83\n121\n108\n",
+    "output" : "invalid\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.D",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.10.01",
+  "contestName" : "DISCO presents ディスカバリーチャンネル コードコンテスト2019 予選",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

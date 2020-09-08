@@ -1,0 +1,54 @@
+{
+  "name" : "B. Dima and a Bad XOR",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 2\n0 0\n0 0\n0 0\n",
+    "output" : "NIE\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2 3\n7 7 7\n7 7 10\n",
+    "output" : "TAK\n1 3 \n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1 5\n1 2 3 4 5\n",
+    "output" : "TAK\n1\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "5 1\n1\n1\n1\n1\n0\n",
+    "output" : "NIE\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "5 1\n1\n2\n3\n4\n5\n",
+    "output" : "",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.BDimaAndABadXOR",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.19",
+  "contestName" : "Codeforces Round #553 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

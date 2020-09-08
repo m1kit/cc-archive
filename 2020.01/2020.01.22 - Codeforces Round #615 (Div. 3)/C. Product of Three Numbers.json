@@ -1,0 +1,44 @@
+{
+  "name" : "C. Product of Three Numbers",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n64\n32\n97\n2\n12345\n",
+    "output" : "YES\n2 4 8 \nNO\nNO\nNO\nYES\n3 5 823 \n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n32\n64\n128\n",
+    "output" : "NO\nYES\n2 4 8\nYES\n2 4 16\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\n72\n",
+    "output" : "YES\n2 4 9\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.CProductOfThreeNumbers",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.01.22",
+  "contestName" : "Codeforces Round #615 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

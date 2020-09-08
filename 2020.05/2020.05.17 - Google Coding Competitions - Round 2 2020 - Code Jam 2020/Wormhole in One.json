@@ -1,0 +1,39 @@
+{
+  "name" : "Wormhole in One",
+  "testType" : "MULTI_NUMBER",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n2\n0 0\n5 5\n3\n0 0\n5 5\n5 0\n5\n0 0\n5 5\n5 0\n3 2\n2 4\n7\n0 0\n1 1\n2 1\n3 1\n8 2\n11 2\n14 2\n1\n-1000000000 1000000000\n",
+    "output" : "Case #1: 2\nCase #2: 3\nCase #3: 4\nCase #4: 7\nCase #5: 1\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n5\n1000000000 1000000000\n-1000000000 1000000000\n0 0\n0 -1000000000\n1000000000 0\n",
+    "output" : "Case #1: 5\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Solution",
+  "taskClass" : "dev.mikit.atcoder.WormholeInOne",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.05.17",
+  "contestName" : "Google Coding Competitions - Round 2 2020 - Code Jam 2020",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

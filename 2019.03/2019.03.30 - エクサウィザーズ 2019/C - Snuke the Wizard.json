@@ -1,0 +1,79 @@
+{
+  "name" : "C - Snuke the Wizard",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 4\nABC\nA L\nB L\nB R\nA R\n",
+    "output" : "2\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "8 3\nAABCBDBA\nA L\nB R\nA R\n",
+    "output" : "5\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "10 15\nSNCZWRCEWB\nB R\nR R\nE R\nW R\nZ L\nS R\nQ L\nW L\nB R\nC L\nA L\nN L\nE R\nZ L\nS L\n",
+    "output" : "3\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3 3\nAAA\nA L\nA L\nA L\n",
+    "output" : "0\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "3 3\nAAD\nA L\nA L\nA L\n",
+    "output" : "1\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "3 3\nAAD\nA R\nA R\nA R\nD L\nD R\nD L\nD R\n",
+    "output" : "3\n",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "2 2\nAB\nB L\nB R\n",
+    "output" : "2\n",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "4 4\nAABB\nA L\nB R\nA L\nB R\n",
+    "output" : "0\n",
+    "index" : 7,
+    "active" : true
+  }, {
+    "input" : "2 4\nAB\nA R\nB L\nA R\nB L\n",
+    "output" : "2\n",
+    "index" : 8,
+    "active" : true
+  }, {
+    "input" : "2 12\nAB\nA R\nB L\nA R\nB L\nA R\nB L\nA R\nB L\nA R\nB L\nA R\nB L\n",
+    "output" : "2\n",
+    "index" : 9,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.CSnukeTheWizard",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.30",
+  "contestName" : "エクサウィザーズ 2019",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

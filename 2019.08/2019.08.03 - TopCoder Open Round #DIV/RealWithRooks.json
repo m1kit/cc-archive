@@ -1,0 +1,36 @@
+{
+  "name" : "RealWithRooks",
+  "signature" : {
+    "name" : "construct",
+    "result" : "String[]",
+    "arguments" : [ "int", "int", "int" ],
+    "argumentNames" : [ "R", "C", "N" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "2", "4", "8" ],
+    "result" : "WBWBфBWBW",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "5", "5", "9" ],
+    "result" : "W.B.Wф.....фB.W.Bф.....фW.B.W",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "4", "7", "3" ],
+    "result" : ".......ф.W...BWф.......ф.......",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "5", "6", "27" ],
+    "result" : "..WBWBф.WBWBWфWBWBWBфBWBWBWфWBWBWB",
+    "index" : 3,
+    "active" : true
+  } ],
+  "date" : "2019.08.03",
+  "contestName" : "TopCoder Open Round #DIV",
+  "testClasses" : [ ],
+  "fqn" : "dev.mikit.atcoder.RealWithRooks",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

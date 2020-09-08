@@ -1,0 +1,44 @@
+{
+  "name" : "C - 3 番目 / The Third",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4 18 25 20 9 13\n",
+    "output" : "18\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "95 96 97 98 99 100\n",
+    "output" : "98\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "19 92 3 35 78 1\n",
+    "output" : "35\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.C3TheThird",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.12.30",
+  "contestName" : "第一回 アルゴリズム実技検定 過去問",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

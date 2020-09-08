@@ -1,0 +1,44 @@
+{
+  "name" : "D - 道路の老朽化対策について",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5 4\n1 2 2000\n2 3 2004\n3 4 1999\n4 5 2001\n3\n1 2000\n1 1999\n3 1995\n",
+    "output" : "1\n3\n5\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4 5\n1 2 2005\n3 1 2001\n3 4 2002\n1 4 2004\n4 2 2003\n5\n1 2003\n2 2003\n1 2001\n3 2003\n4 2004\n",
+    "output" : "3\n3\n4\n1\n1\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4 5\n1 2 10\n1 2 1000\n2 3 10000\n2 3 100000\n3 1 200000\n4\n1 0\n2 10000\n3 100000\n4 0\n",
+    "output" : "3\n3\n2\n1\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.D",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.08.21",
+  "contestName" : "AtCoder - AtCoder Beginner Contest 040",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

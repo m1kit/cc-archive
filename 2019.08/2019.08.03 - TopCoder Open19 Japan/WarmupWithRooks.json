@@ -1,0 +1,41 @@
+{
+  "name" : "WarmupWithRooks",
+  "signature" : {
+    "name" : "count",
+    "result" : "int",
+    "arguments" : [ "String[]" ],
+    "argumentNames" : [ "board" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "........ф........ф........ф........ф........ф........ф........ф........" ],
+    "result" : "0",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "........ф...W.W..ф........ф........ф........ф........фB.......ф.B......" ],
+    "result" : "0",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "W......Bф........ф........ф........ф........ф........ф........фB......W" ],
+    "result" : "4",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "........ф........ф........фWWWWBBBBф........ф........ф........ф........" ],
+    "result" : "1",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "........ф.WB..W.Wф........ф.......Bф..W..BB.ф..B...W.ф..BW...Bф.B..B..W" ],
+    "result" : "14",
+    "index" : 4,
+    "active" : true
+  } ],
+  "date" : "2019.08.03",
+  "contestName" : "TopCoder Open19 Japan",
+  "testClasses" : [ ],
+  "fqn" : "dev.mikit.atcoder.WarmupWithRooks",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

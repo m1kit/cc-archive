@@ -1,0 +1,39 @@
+{
+  "name" : "D. Irrigation",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6 4 10\n3 1 1 1 2 2\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n",
+    "output" : "4\n3\n4\n2\n3\n4\n1\n2\n3\n4\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4 5 4\n4 4 5 1\n15\n9\n13\n6\n",
+    "output" : "5\n3\n3\n3\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.DIrrigation",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.06.16",
+  "contestName" : "Codeforces Round #567 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

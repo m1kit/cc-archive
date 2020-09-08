@@ -1,0 +1,44 @@
+{
+  "name" : "E - Crested Ibis vs Monster",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "9 3\n8 3\n4 2\n2 1\n",
+    "output" : "4\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "100 6\n1 1\n2 3\n3 9\n4 27\n5 81\n6 243\n",
+    "output" : "100\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "9999 10\n540 7550\n691 9680\n700 9790\n510 7150\n415 5818\n551 7712\n587 8227\n619 8671\n588 8228\n176 2461\n",
+    "output" : "139815\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.ECrestedIbisVsMonster",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.01.26",
+  "contestName" : "AtCoder Beginner Contest 153",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

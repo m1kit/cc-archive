@@ -1,0 +1,49 @@
+{
+  "name" : "I - カツサンドくん β",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n100 17\n171 10\n91 19",
+    "output" : "-1",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n7 3\n9 2\n2 5",
+    "output" : "1\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2\n999999999 1000000000\n1 999999999",
+    "output" : "-1",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "2\n999999999 1\n1000000000 1",
+    "output" : "2\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.I",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.25",
+  "contestName" : "Chokudai SpeedRun 002",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,44 @@
+{
+  "name" : "C - 山崩し",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n....#....\n...##X...\n..#####..\n.#X#####.\n#########\n",
+    "output" : "....X....\n...XXX...\n..XX###..\n.#X#####.\n#########\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2\n.#.\n#X#\n",
+    "output" : ".X.\n#X#\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "10\n.........#.........\n........###........\n.......#####.......\n......#######......\n.....#########.....\n....###########....\n...#############...\n..###############..\n.#################.\nX#X########X#X####X\n",
+    "output" : ".........X.........\n........XXX........\n.......XXXXX.......\n......XXXXXXX......\n.....XXXXXXXXX.....\n....XXXXXXXXXXX....\n...XXX##XXXXXXXX...\n..XXX####XXXXXXXX..\n.XXX######XXXXX##X.\nX#X########X#X####X\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.C",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.05.08",
+  "contestName" : "AtCoder - 第二回 アルゴリズム実技検定",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

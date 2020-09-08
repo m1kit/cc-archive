@@ -1,0 +1,59 @@
+{
+  "name" : "F. Wi-Fi",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5 2\n00100\n",
+    "output" : "3\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6 1\n000000\n",
+    "output" : "21\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4 1\n0011\n",
+    "output" : "4\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "12 6\n000010000100\n",
+    "output" : "15\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "8 3\n00010010",
+    "output" : "11\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "7 3\n1001000",
+    "output" : "4\n",
+    "index" : 5,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.FWiFi",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.09.21",
+  "contestName" : "Codeforces Round #587 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

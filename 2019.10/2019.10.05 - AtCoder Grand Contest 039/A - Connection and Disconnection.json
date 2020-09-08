@@ -1,0 +1,124 @@
+{
+  "name" : "A - Connection and Disconnection",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "issii\n2\n",
+    "output" : "4\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "qq\n81\n",
+    "output" : "81\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "cooooooooonteeeeeeeeeest\n999993333\n",
+    "output" : "8999939997\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "a\n2\n",
+    "output" : "1\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "a\n3\n",
+    "output" : "1\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "a\n100\n",
+    "output" : "50\n",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "aa\n50\n\n",
+    "output" : "50\n",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "a\n1\n",
+    "output" : "0\n",
+    "index" : 7,
+    "active" : true
+  }, {
+    "input" : "aaaa\n1\n",
+    "output" : "2\n",
+    "index" : 8,
+    "active" : true
+  }, {
+    "input" : "abab\n100000\n",
+    "output" : "0\n",
+    "index" : 9,
+    "active" : true
+  }, {
+    "input" : "a\n1\n",
+    "output" : "0\n",
+    "index" : 10,
+    "active" : true
+  }, {
+    "input" : "aaa\n1\n",
+    "output" : "1\n",
+    "index" : 11,
+    "active" : true
+  }, {
+    "input" : "aaaa\n1\n",
+    "output" : "2\n",
+    "index" : 12,
+    "active" : true
+  }, {
+    "input" : "bbbbb\n1\n",
+    "output" : "2\n",
+    "index" : 13,
+    "active" : true
+  }, {
+    "input" : "ab\n100000",
+    "output" : "0\n",
+    "index" : 14,
+    "active" : true
+  }, {
+    "input" : "a\n20",
+    "output" : "10\n",
+    "index" : 15,
+    "active" : true
+  }, {
+    "input" : "a\n19",
+    "output" : "9\n",
+    "index" : 16,
+    "active" : true
+  }, {
+    "input" : "aaa\n3\n",
+    "output" : "4\n",
+    "index" : 17,
+    "active" : true
+  }, {
+    "input" : "aaa\n5",
+    "output" : "7\n",
+    "index" : 18,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.AConnectionAndDisconnection",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.10.05",
+  "contestName" : "AtCoder Grand Contest 039",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

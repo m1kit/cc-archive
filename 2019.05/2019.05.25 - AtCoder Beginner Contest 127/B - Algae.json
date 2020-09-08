@@ -1,0 +1,39 @@
+{
+  "name" : "B - Algae",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2 10 20\n",
+    "output" : "30\n50\n90\n170\n330\n650\n1290\n2570\n5130\n10250\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4 40 60\n",
+    "output" : "200\n760\n3000\n11960\n47800\n191160\n764600\n3058360\n12233400\n48933560\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.BAlgae",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.25",
+  "contestName" : "AtCoder Beginner Contest 127",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

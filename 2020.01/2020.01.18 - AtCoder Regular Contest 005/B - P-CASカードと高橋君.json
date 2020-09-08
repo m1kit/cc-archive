@@ -1,0 +1,54 @@
+{
+  "name" : "B - P-CASカードと高橋君",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 5 R\n790319030\n091076399\n143245946\n590051196\n398226115\n442567154\n112705290\n716433235\n221041645\n",
+    "output" : "8226\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "8 9 LU\n206932999\n471100777\n973172688\n108989704\n246954192\n399039569\n944715218\n003664867\n219006823\n",
+    "output" : "2853\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5 7 D\n271573743\n915078603\n102553534\n996473623\n595593497\n573572507\n340348994\n253066837\n643845096\n",
+    "output" : "4646\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "2 2 LU\n729142134\n509607882\n640003027\n215270061\n214055727\n745319402\n777708131\n018697986\n277156993\n",
+    "output" : "0700\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "8 7 RD\n985877833\n469488482\n218647263\n856777094\n012249580\n845463670\n919136580\n011130808\n874387671\n",
+    "output" : "8878\n",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx64M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.BPCAS",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.01.18",
+  "contestName" : "AtCoder Regular Contest 005",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

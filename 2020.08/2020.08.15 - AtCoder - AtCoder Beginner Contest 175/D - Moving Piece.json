@@ -1,0 +1,49 @@
+{
+  "name" : "D - Moving Piece",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5 2\n2 4 5 1 3\n3 4 -10 -8 8\n",
+    "output" : "8\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2 3\n2 1\n10 -7\n",
+    "output" : "13\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3 3\n3 1 2\n-1000 -2000 -3000\n",
+    "output" : "-1000\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "10 58\n9 1 6 7 8 4 3 2 10 5\n695279662 988782657 -119067776 382975538 -151885171 -177220596 -169777795 37619092 389386780 980092719\n",
+    "output" : "29507023469\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.DMovingPiece",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.08.15",
+  "contestName" : "AtCoder - AtCoder Beginner Contest 175",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

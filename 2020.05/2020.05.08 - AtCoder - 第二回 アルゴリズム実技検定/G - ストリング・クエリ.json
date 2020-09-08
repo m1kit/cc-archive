@@ -1,0 +1,44 @@
+{
+  "name" : "G - ストリング・クエリ",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6\n1 a 5\n2 3\n1 t 8\n1 c 10\n2 21\n2 4\n",
+    "output" : "9\n168\n0\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4\n1 x 5\n1 y 8\n2 7\n1 z 8\n",
+    "output" : "29\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3\n1 p 3\n1 q 100000\n2 100000\n",
+    "output" : "9999400018\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.G",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.05.08",
+  "contestName" : "AtCoder - 第二回 アルゴリズム実技検定",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

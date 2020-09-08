@@ -1,0 +1,44 @@
+{
+  "name" : "M - おまかせ / Auto Choice",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6 2\n10 30\n20 60\n10 10\n30 100\n50 140\n40 120\n10 3\n30 1\n",
+    "output" : "3.0000000000000\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6 2\n1 20\n1 3\n32 100\n1 1\n1 2\n2 5\n10 100\n96 874\n",
+    "output" : "9.0000000000000\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5 1\n1 1\n1 1\n1 1\n1 1\n1 1\n1 1\n",
+    "output" : "1.0000000000000\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.MAutoChoice",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.01.03",
+  "contestName" : "第一回 アルゴリズム実技検定 過去問",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

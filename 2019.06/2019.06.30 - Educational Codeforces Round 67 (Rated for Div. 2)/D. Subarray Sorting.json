@@ -1,0 +1,34 @@
+{
+  "name" : "D. Subarray Sorting",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n7\n1 7 1 4 4 5 6\n1 1 4 4 5 7 6\n5\n1 1 3 3 5\n1 1 3 3 5\n2\n1 1\n1 2\n3\n1 2 3\n3 2 1\n",
+    "output" : "YES\nYES\nNO\nNO\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.DSubarraySorting",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.06.30",
+  "contestName" : "Educational Codeforces Round 67 (Rated for Div. 2)",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

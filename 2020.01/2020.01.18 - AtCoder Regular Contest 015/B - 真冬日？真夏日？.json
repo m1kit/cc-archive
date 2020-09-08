@@ -1,0 +1,44 @@
+{
+  "name" : "B - 真冬日？真夏日？",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n32.2 25.3\n36.4 26.4\n24.1 18.0\n26.0 24.9\n",
+    "output" : "1 1 1 2 0 0\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n-2 -5.2\n2 -0.1\n26.0 -0.1\n",
+    "output" : "0 0 1 0 2 1\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "4\n15.0 9.5\n12.5 10.5\n20.5 19.9\n15.5 15.5\n",
+    "output" : "0 0 0 0 0 0\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx64M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.B",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.01.18",
+  "contestName" : "AtCoder Regular Contest 015",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

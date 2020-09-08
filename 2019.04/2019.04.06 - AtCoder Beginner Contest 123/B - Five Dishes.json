@@ -1,0 +1,44 @@
+{
+  "name" : "B - Five Dishes",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "29\n20\n7\n35\n120\n",
+    "output" : "215\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "101\n86\n119\n108\n57\n",
+    "output" : "481\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "123\n123\n123\n123\n123\n",
+    "output" : "643\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.BFiveDishes",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.06",
+  "contestName" : "AtCoder Beginner Contest 123",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

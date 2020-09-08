@@ -1,0 +1,44 @@
+{
+  "name" : "E. New Year Parties",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n1 2 4 4\n",
+    "output" : "2 4\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "9\n1 1 8 8 8 4 4 4 4\n",
+    "output" : "3 8\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "7\n4 3 7 1 4 3 3\n",
+    "output" : "3 6\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.ENewYearParties",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.12.29",
+  "contestName" : "Codeforces Round #611 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

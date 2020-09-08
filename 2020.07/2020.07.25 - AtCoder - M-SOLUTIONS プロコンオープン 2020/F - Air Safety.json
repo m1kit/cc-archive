@@ -1,0 +1,69 @@
+{
+  "name" : "F - Air Safety",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n11 1 U\n11 47 D\n",
+    "output" : "230\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4\n20 30 U\n30 20 R\n20 10 D\n10 20 L\n",
+    "output" : "SAFE\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "8\n168 224 U\n130 175 R\n111 198 D\n121 188 L\n201 116 U\n112 121 R\n145 239 D\n185 107 L\n",
+    "output" : "100\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "2\n1 0 L\n0 1 D\n",
+    "output" : "10\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "2\n1 0 L\n0 -1 U\n",
+    "output" : "10\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "2\n-1 0 R\n0 -1 U\n",
+    "output" : "10\n",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "2\n-1 0 R\n0 1 D\n",
+    "output" : "10\n",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "4\n0 0 R\n2 0 L\n3 0 R\n4 0 L",
+    "output" : "5\n",
+    "index" : 7,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.FAirSafety",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.07.25",
+  "contestName" : "AtCoder - M-SOLUTIONS プロコンオープン 2020",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

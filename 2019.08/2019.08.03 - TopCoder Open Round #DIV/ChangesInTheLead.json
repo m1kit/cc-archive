@@ -1,0 +1,56 @@
+{
+  "name" : "ChangesInTheLead",
+  "signature" : {
+    "name" : "count",
+    "result" : "int",
+    "arguments" : [ "int", "int", "int" ],
+    "argumentNames" : [ "H", "A", "C" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "7", "0", "0" ],
+    "result" : "1",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "0", "6", "250" ],
+    "result" : "0",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "3", "1", "1" ],
+    "result" : "1",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "6", "4", "2" ],
+    "result" : "35",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "6", "7", "3" ],
+    "result" : "208",
+    "index" : 4,
+    "active" : true
+  }, {
+    "arguments" : [ "0", "0", "0" ],
+    "result" : "1",
+    "index" : 5,
+    "active" : true
+  }, {
+    "arguments" : [ "2", "2", "1" ],
+    "result" : "2",
+    "index" : 6,
+    "active" : true
+  }, {
+    "arguments" : [ "1", "1", "0" ],
+    "result" : "2",
+    "index" : 7,
+    "active" : true
+  } ],
+  "date" : "2019.08.03",
+  "contestName" : "TopCoder Open Round #DIV",
+  "testClasses" : [ ],
+  "fqn" : "dev.mikit.atcoder.ChangesInTheLead",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

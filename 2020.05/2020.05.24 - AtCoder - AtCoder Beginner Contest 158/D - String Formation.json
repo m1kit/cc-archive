@@ -1,0 +1,44 @@
+{
+  "name" : "D - String Formation",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "a\n4\n2 1 p\n1\n2 2 c\n1\n",
+    "output" : "cpa\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "a\n6\n2 2 a\n2 1 b\n1\n2 2 c\n1\n1\n",
+    "output" : "aabc\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "y\n1\n2 1 x\n",
+    "output" : "xy\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.DStringFormation",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.05.24",
+  "contestName" : "AtCoder - AtCoder Beginner Contest 158",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

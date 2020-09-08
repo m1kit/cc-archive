@@ -1,0 +1,54 @@
+{
+  "name" : "F - Strivore",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\noof\n",
+    "output" : "575111451\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "37564\nwhydidyoudesertme\n",
+    "output" : "318008117\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\na\n",
+    "output" : "51\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1\naa\n",
+    "output" : "76\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "2\na\n",
+    "output" : "1951\n",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.FStrivore",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.06.21",
+  "contestName" : "AtCoder - AtCoder Beginner Contest 171",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

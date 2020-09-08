@@ -1,0 +1,44 @@
+{
+  "name" : "H - 1-9 Grid",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 4\n1S23\n4567\n89G1\n",
+    "output" : "17\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1 11\nS134258976G\n",
+    "output" : "20\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3 3\nS12\n4G7\n593\n",
+    "output" : "-1\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.H19Grid",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.05.08",
+  "contestName" : "AtCoder - 第二回 アルゴリズム実技検定",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

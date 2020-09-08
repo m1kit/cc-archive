@@ -1,0 +1,89 @@
+{
+  "name" : "E - Who Says a Pun?",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\nababa\n",
+    "output" : "2\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2\nxy\n",
+    "output" : "0\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "13\nstrangeorange\n",
+    "output" : "5\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "4\naaaa\n",
+    "output" : "2\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "5\naabaa\n",
+    "output" : "2\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "6\naaaaaa\n",
+    "output" : "3\n",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "5\naaaaa\n",
+    "output" : "2\n",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "1\na\n",
+    "output" : "0\n",
+    "index" : 7,
+    "active" : true
+  }, {
+    "input" : "2\naa\n",
+    "output" : "1\n",
+    "index" : 8,
+    "active" : true
+  }, {
+    "input" : "2\nab\n",
+    "output" : "0\n",
+    "index" : 9,
+    "active" : true
+  }, {
+    "input" : "7\nisisisi",
+    "output" : "3\n",
+    "index" : 10,
+    "active" : true
+  }, {
+    "input" : "44\naiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiai",
+    "output" : "22\n",
+    "index" : 11,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.EWhoSaysAPun",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.09.15",
+  "contestName" : "AtCoder Beginner Contest 141",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,49 @@
+{
+  "name" : "C - 無駄なものが嫌いな人",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5 5\n1\n1\n2\n3\n4\n",
+    "output" : "4\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "8 21\n10\n4\n2\n30\n22\n20\n8\n14\n",
+    "output" : "0\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "20 100000000\n35576749\n38866484\n6624951\n39706038\n11133516\n25490903\n14701702\n17888322\n14423251\n32111678\n24509097\n43375049\n35298298\n21158709\n30489274\n37977301\n19510726\n28841291\n10293962\n12022699\n",
+    "output" : "45\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "16 8\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n",
+    "output" : "12870\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.C",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.01.12",
+  "contestName" : "AtCoder Regular Contest 017",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

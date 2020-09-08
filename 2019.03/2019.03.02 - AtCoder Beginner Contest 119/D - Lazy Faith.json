@@ -1,0 +1,39 @@
+{
+  "name" : "D - Lazy Faith",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2 3 4\n100\n600\n400\n900\n1000\n150\n2000\n899\n799\n",
+    "output" : "350\n1400\n301\n399\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1 1 3\n1\n10000000000\n2\n9999999999\n5000000000\n",
+    "output" : "10000000000\n10000000000\n14999999998\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.DLazyFaith",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.02",
+  "contestName" : "AtCoder Beginner Contest 119",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "jp.llv.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

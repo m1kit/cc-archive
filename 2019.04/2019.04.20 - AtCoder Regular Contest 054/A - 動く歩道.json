@@ -1,0 +1,49 @@
+{
+  "name" : "A - 動く歩道",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6 2 3 1 5",
+    "output" : "0.8000000000\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6 2 10 1 5",
+    "output" : "0.2500000000\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "6 3 1 5 3",
+    "output" : "1.0000000000",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "10 7 7 6 0",
+    "output" : "0.2857142857",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx144M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.A",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.20",
+  "contestName" : "AtCoder Regular Contest 054",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

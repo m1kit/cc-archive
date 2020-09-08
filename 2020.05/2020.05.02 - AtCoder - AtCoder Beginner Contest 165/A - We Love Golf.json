@@ -1,0 +1,44 @@
+{
+  "name" : "A - We Love Golf",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "7\n500 600\n",
+    "output" : "OK\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4\n5 7\n",
+    "output" : "NG\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\n11 11\n",
+    "output" : "OK\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.AWeLoveGolf",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.05.02",
+  "contestName" : "AtCoder - AtCoder Beginner Contest 165",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

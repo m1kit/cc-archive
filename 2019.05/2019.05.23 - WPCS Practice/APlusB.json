@@ -1,0 +1,37 @@
+{
+  "name" : "APlusB",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "50\n-4425 3590\n149 -2734\n-3711 576\n4096 231\n-1165 2476\n1217 -3122\n-3820 -1294\n3238 2624\n2537 3329\n-1781 2483\n501 3602\n823 -864\n1463 -3880\n-4232 4470\n3805 -2587\n-4479 4501\n230 -706\n2143 -90\n-4727 -3735\n-1191 3525\n4697 1828\n2147 159\n-4259 -2846\n4029 240\n-1209 -787\n-949 -3141\n-495 -2234\n-1225 -670\n-2446 3841\n3272 3510\n-3494 3521\n-2728 -1602\n2358 -3367\n-4448 3520\n-2383 -1160\n-3024 4051\n2014 690\n158 3320\n4060 -137\n3395 4068\n4935 -4082\n193 1395\n-22 151\n-3997 2125\n4944 -1344\n956 4758\n-1471 -1435\n2593 2891\n-3720 2236\n-501 4904\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "10\n-40 24\n-40 27\n-26 -47\n-48 -5\n17 -3\n-17 26\n29 40\n-48 1\n49 -29\n26 -38\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.APlusB",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.23",
+  "contestName" : "WPCS Practice",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,54 @@
+{
+  "name" : "C - 倍々ゲーム",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "1\n",
+    "output" : "Aoki\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5\n",
+    "output" : "Takahashi\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "7\n",
+    "output" : "Aoki\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "10\n",
+    "output" : "Takahashi\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "123456789123456789\n",
+    "output" : "Aoki\n",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.C",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.01.11",
+  "contestName" : "AtCoder Beginner Contest 027",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,44 @@
+{
+  "name" : "C - 民族大移動",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "10 10 3\n1 5\n3 6\n7 10\n5 8\n4 4\n1 4\n2 9\n1 3\n1 1\n4 5\n1 6\n2 7\n10 1",
+    "output" : "2\n4\n8\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "10 10 4\n1 2\n2 4\n3 6\n4 8\n5 10\n9 10\n7 8\n5 6\n3 5\n1 3\n10 1\n3 8\n2 4\n1 3",
+    "output" : "10\n4\n2\n2",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "314159265 10 1\n1 10000\n500 12031\n1414 113232\n111111 777777\n666661 23423423\n12345678 123456789\n111111111 314159265\n112334 235235235\n1 223445\n314 1592\n1 314159265",
+    "output" : "7",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.C",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.14",
+  "contestName" : "AtCoder Beginner Contest 024",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

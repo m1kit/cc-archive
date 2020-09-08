@@ -1,0 +1,44 @@
+{
+  "name" : "E. Median String",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\naz\nbf\n",
+    "output" : "bc\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5\nafogk\nasdji\n",
+    "output" : "alvuw\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "6\nnijfvj\ntvqhwp\n",
+    "output" : "qoztvz\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.EMedianString",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.31",
+  "contestName" : "Codeforces Round #550 (Div. 3)",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

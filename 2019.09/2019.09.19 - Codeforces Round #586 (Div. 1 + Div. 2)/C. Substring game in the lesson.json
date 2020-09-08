@@ -1,0 +1,43 @@
+{
+  "name" : "C. Substring game in the lesson",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "abba\n",
+    "output" : "Mike\nAnn\nAnn\nMike\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "cba\n",
+    "output" : "Mike\nMike\nMike\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "aacab\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.CSubstringGameInTheLesson",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.09.19",
+  "contestName" : "Codeforces Round #586 (Div. 1 + Div. 2)",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

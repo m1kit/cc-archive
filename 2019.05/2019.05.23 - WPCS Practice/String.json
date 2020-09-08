@@ -1,0 +1,37 @@
+{
+  "name" : "String",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "10\nanknWGZo 7\nDIlJLWac 7\nEKnyDP 5\nsghTVn 6\nbALxIvwN 4\nFD 9\nILUHV 6\nPXGntihKkj 2\nUOfroVscq 5\nZPtcSCMh 5\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "50\neJkZFsAPTUvdvwZyxgHtUlsncunGLpppvTwSBVGdPVjPoiuIAAHBQHIyxyXDcCwCKxmKauDITIBpQZdXMs 78\nWcdiGJqnnTXqQRzmeeSCokHgRODhyhiTjajyxZieDmlgVuvvCExUqNbSXeuPROwQkSnI 13\nVMQVuGHfmWlFAdXiITyahJsGvgTAirnyLYnxrXXzVIrNkVmDLOJj 53\nJQidxWGHPgyVnbuFhDTOgPUOjddPIRGqcHjayeRZG 50\npDLfSCNbWaDvqGseqJBxcamxpUDRINyhZFXjToxxXrhyNvcVPamlFXiTIXVSSuqsPxsuvqmlKObqRdq 47\nhfhaNxaHfaVmOQEWZpPfOOYnVuSdipvsfGvqxSnYGKgWxdBJYJxIeeprBEjdveCHAGGvIuyJfjkSpDWylXxiTwaLUNSAp 32\nVhOutCwrKnJCVSaYfuAgfrZOqDdjNBOlu 42\nILCVCmWlcuGtLsaqdubitnuhYBXfivclnGzHDAKqGOoswbjvSpIf 29\nXGbdoUiVVWgjOipTMiCwpgvMSxYKpsAUSfRycsbvZMR 72\nTUVVAPcVwEqiVlYGeBKbocUEXhyVpftMPOVrRcpEfJgZdHDQaDtwMFARzKjXoeiMuhzfFDgpqOMCmxPEPqALqqwEepfPt 36\nQvYoKuKHnZKFtCAhoYV 79\nKNtuKFvwGvlqzCDEOeZmJgpMGyLDmGtdtRpFnVFiNrYEpHvbg 90\nlMjbrsiGXQqZZbTHBkuBlACvkKuxfLCzQ 24\nILjgfMBinpaPKfatMmJQmLVZQxKLubpwfbiJgGAEdUOwPphAYEKzdi 21\nasdfghPYqsRSJ 13\nEVaxqMsMVgGjOStOWkFJZHurJCVfXNDwJLlqwzpJmzbkFeS 98\nocUfYqgQQWMnTbHJOByRupTZddeqUXjMGrfLPEhynVpELTfrTGFXdPDUtwUkuBuQipSJWmWomCOeQpxkmyYlVgFpiiwZiMGCwRlJ 50\nhJyqeZtptXfefQwbGQjMgYXfMNocHeaLXnRlzUozXBEerDXE 4\ntOXDPondojCqUSO 90\nffpqwCtYLXJVKKsrqZMPqirSdWXzzLGDEZgSeo 77\nDCKBfFKVLsXPQDLPVbbQXqViEfsrIyBNHywJSllGNFs 44\nxAioyOWIMPmSqndZBohgEsUggKtSdNKGgfJSRruyhysOCnjlIjESCrnlyzXcNbXTOkWWubtKcYs 51\nxQaCLlUzaJDcsmMqGIGtVHVsDMBJTxWogdOSRZCumdhxYzVkCFWgKI 77\nNWsJFXB 28\nEUrOpcmFhTtxNFugTkaNsZsqaeRoBjDdwGbyqmqvECyaGGyDaYMhMQpVVjssFRqYxyofWNrlQ 68\noqfhnIahepfOJhNqRYlkRHEXWCsiXHGeejAjZVhjyMovHrIfLHMIUZNH 23\nkiAgvYtLfqBLxADCgiACIfokiAznViOsqqOgLkoJdoSshPMPVrhdF 44\nFIZYVECmQpNnYjLikqypwPzdvlvdCRjUHWjzfCvJa 13\nepddXDychrbbrpBggCceprj 29\nZuxZeXRFLvjeXjLPHbZoRygFQVJPKiFkVkFsIvdXxLRbpICYlHjkhfLxL 75\nBJLerlUxOUPliJbVqtRLEJlGEnzx 38\ntIQUoBKmSOUyuyfyPVpxAOeyPKflkzUNAlSppPAPAz 21\nhoVZDfLNFqkcPbyKEmYupUOocboukKnkOTUmvBWOAhtAcyguvqDtYmKCca 37\ncvyuXIAkLObwAhryYKjIoQoxUVGirOoJxQxQDWMujFcCrgYLgFKYcaoXAxMTCFqZXmTjE 35\nxsBSnYJTYbkklmbYouIriag 53\nLAHUWcpcDdaOZjCnkV 33\nJjDJdTKra 45\nFhTKUYjmMUaYOggoThYzvcU 22\nPJoyBXAqtRTOPUWOxmzxMbjyXsSVUzAuPG 91\nksxaLaygELNxNfDvTSyHBRYmwkwdcrGBMljXnLZzLTvMaOMyJFizBVfPwxwWoqJyCyKUklSkSmGDKVCKkQaOUMUlcmLZBPYh 78\nKdtOMAelEQaJEIgPJAjIxtxQCGkysrEANieWpSPOvdzMJXlkjYdrGGwCSIlmRFNupKtSLBuzcaAzlSPLSIyhEaPmON 81\nlakdYHTdbaASCqXydAdCnEBADHWGiAwDQcohVBgyQkqlcJjmZY 15\nbVBtWDOwgmZucsSlRqhNsdGasREPqVPc 7\nEegsypibRoVnvxFmhuBLGSegXi 25\nBdTNEctlxkUfwjMnGWHQ 23\nqTPhHjVObbJVjYYzUDcViwQnjjmXqfFhDiHMddiIHhiCVZKFovMylJpCmBNnnyGVMYXjOtGuHQMVtBsPfuBCUpCqxBX 43\neMYxzOltSVTzUzppMSdtgLQh 76\nrYWFFFPmzZFDifJalnTIfjuGKSCZjxDhhWXlSHUKsDdxsBVtslzkJgJTcNaupggJjjrMHgQPvN 22\nJTCMpegJNjzNYTnbxIpIDdquHjKAJzpvfbNSLQLcWpUUdxnWwBzdzUONuEmiyDojFKDVqnIPAmxMOCGnJhFfIiZfvLEtdOmID 3\nZZlGMWETWRBUjLgWDODsAvLuCwTBnxLogJTguWoWoTsDREqnaWAxSVeIGnNjePIonPeiqBpGuJpGLPqcyDpupT 31\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.String",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.23",
+  "contestName" : "WPCS Practice",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

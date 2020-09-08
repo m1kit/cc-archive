@@ -1,6 +1,5 @@
 package jp.llv.atcoder;
 
-import jp.llv.atcoder.lib.graph.*;
 import jp.llv.atcoder.lib.io.LightScanner;
 import java.io.PrintWriter;
 import java.util.ArrayList;

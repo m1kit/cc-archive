@@ -1,0 +1,104 @@
+{
+  "name" : "A. Tile Painting",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n",
+    "output" : "2\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5\n",
+    "output" : "5\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "9\n",
+    "output" : "3\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "27\n",
+    "output" : "3\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "6\n",
+    "output" : "1\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "15\n",
+    "output" : "1\n",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "8\n",
+    "output" : "2\n",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "2",
+    "output" : "2\n",
+    "index" : 7,
+    "active" : true
+  }, {
+    "input" : "7",
+    "output" : "7\n",
+    "index" : 8,
+    "active" : true
+  }, {
+    "input" : "365",
+    "output" : "1",
+    "index" : 9,
+    "active" : true
+  }, {
+    "input" : "144\n",
+    "output" : "1",
+    "index" : 10,
+    "active" : true
+  }, {
+    "input" : "1000\n",
+    "output" : "1\n",
+    "index" : 11,
+    "active" : true
+  }, {
+    "input" : "1\n",
+    "output" : "1\n",
+    "index" : 12,
+    "active" : true
+  }, {
+    "input" : "1024\n",
+    "output" : "2\n",
+    "index" : 13,
+    "active" : true
+  }, {
+    "input" : "36\n",
+    "output" : "1\n",
+    "index" : 14,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.ATilePainting",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.11.07",
+  "contestName" : "Codeforces Round #599 (Div. 1)",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

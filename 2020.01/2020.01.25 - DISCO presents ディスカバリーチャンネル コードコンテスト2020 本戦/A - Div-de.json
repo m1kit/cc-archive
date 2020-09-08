@@ -1,0 +1,54 @@
+{
+  "name" : "A - Div/de",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n1 2 3 4 5\n",
+    "output" : "Yes\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6\n1 1 1 1 1 1\n",
+    "output" : "No\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3\n19 12 15\n",
+    "output" : "No\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "10\n91 92 93 94 95 96 97 98 99 100\n",
+    "output" : "No\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "2\n2 2\n",
+    "output" : "No\n",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.ADivde",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.01.25",
+  "contestName" : "DISCO presents ディスカバリーチャンネル コードコンテスト2020 本戦",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

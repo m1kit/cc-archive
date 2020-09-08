@@ -1,0 +1,44 @@
+{
+  "name" : "D. Dirty Deeds Done Dirt Cheap",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n1 7\n6 4\n2 10\n9 8\n3 5\n",
+    "output" : "3\n1 5 3\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n5 4\n3 2\n6 1\n",
+    "output" : "3\n3 2 1\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3\n2 1\n4 3\n6 5\n",
+    "output" : "0\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.DDirtyDeedsDoneDirtCheap",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.06.01",
+  "contestName" : "Codeforces Global Round 3",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

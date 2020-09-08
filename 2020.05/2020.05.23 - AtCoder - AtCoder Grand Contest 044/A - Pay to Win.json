@@ -1,0 +1,48 @@
+{
+  "name" : "A - Pay to Win",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n11 1 2 4 8\n11 1 2 2 8\n32 10 8 5 4\n29384293847243 454353412 332423423 934923490 1\n900000000000000000 332423423 454353412 934923490 987654321\n",
+    "output" : "20\n19\n26\n3821859835\n23441258666\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n11 1 2 4 8\n11 1 2 2 8\n32 10 8 5 4",
+    "output" : "20\n19\n26\n",
+    "index" : 1,
+    "active" : false
+  }, {
+    "input" : "16\n1 1 1 1 1\n2 1 1 1 1\n3 1 1 1 1\n4 1 1 1 1\n5 1 1 1 1\n6 1 1 1 1\n7 1 1 1 1\n8 1 1 1 1\n9 1 1 1 1\n10 1 1 1 1\n11 1 1 1 1\n12 1 1 1 1\n13 1 1 1 1\n14 1 1 1 1\n15 1 1 1 1\n16 1 1 1 1\n\n",
+    "index" : 2,
+    "active" : false
+  }, {
+    "input" : "4\n11 1 2 4 8\n11 1 2 2 8\n32 10 8 5 4\n29384293847243 454353412 332423423 934923490 1\n",
+    "output" : "",
+    "index" : 3,
+    "active" : false
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.APayToWin",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.05.23",
+  "contestName" : "AtCoder - AtCoder Grand Contest 044",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

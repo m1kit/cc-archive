@@ -1,0 +1,39 @@
+{
+  "name" : "L - スーパーマーケット",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n3 1 200 1000\n5 20 30 40 50 2\n5\n1 1 1 2 2\n",
+    "output" : "20\n30\n40\n200\n1000\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "10\n6 8 24 47 29 73 13\n1 4\n5 72 15 68 49 16\n5 65 20 93 64 91\n6 100 88 63 50 90 44\n2 6 1\n10 14 2 76 28 21 78 43 11 97 70\n5 31 9 62 84 40\n8 10 46 96 23 98 19 38 51\n2 37 77\n20\n1 1 1 1 2 2 2 1 1 2 2 2 2 2 1 2 1 2 2 1\n",
+    "output" : "100\n88\n72\n65\n93\n77\n68\n63\n50\n90\n64\n91\n49\n46\n44\n96\n37\n31\n62\n20\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.L",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.05.29",
+  "contestName" : "AtCoder - 第三回 アルゴリズム実技検定",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

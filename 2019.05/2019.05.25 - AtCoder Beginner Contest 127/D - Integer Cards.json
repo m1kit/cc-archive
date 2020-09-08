@@ -1,0 +1,49 @@
+{
+  "name" : "D - Integer Cards",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 2\n5 1 4\n2 3\n1 5\n",
+    "output" : "14\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "10 3\n1 8 5 7 100 4 52 33 13 5\n3 10\n4 30\n1 4\n",
+    "output" : "338\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "3 2\n100 100 100\n3 99\n3 99\n",
+    "output" : "300\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "11 3\n1 1 1 1 1 1 1 1 1 1 1\n3 1000000000\n4 1000000000\n3 1000000000\n",
+    "output" : "10000000001\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.DIntegerCards",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.25",
+  "contestName" : "AtCoder Beginner Contest 127",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

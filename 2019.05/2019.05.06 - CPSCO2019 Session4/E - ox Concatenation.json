@@ -1,0 +1,54 @@
+{
+  "name" : "E - ox Concatenation",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6\noxoxox\n1 1 1 1",
+    "output" : "Yes\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6\noxoxox\n2 1 0 0\n",
+    "output" : "No\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "7\nxxxxxxx\n1 1 1 2",
+    "output" : "No",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "9\nxoxoxxoxo\n2 2 0 1",
+    "output" : "Yes",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "5\noxoox\n1 1 1 0\n",
+    "output" : "Yes\n",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.EOxConcatenation",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.06",
+  "contestName" : "CPSCO2019 Session4",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,39 @@
+{
+  "name" : "K - 巨大企業 / Conglomerate",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "7\n-1\n1\n1\n2\n2\n3\n3\n6\n7 1\n4 1\n2 3\n5 1\n5 2\n2 5\n",
+    "output" : "Yes\nYes\nNo\nYes\nYes\nNo\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "20\n4\n11\n12\n-1\n1\n13\n13\n4\n6\n20\n1\n1\n20\n10\n8\n8\n20\n10\n18\n1\n20\n18 14\n11 3\n2 13\n13 11\n10 15\n9 5\n17 11\n18 10\n1 16\n9 4\n19 6\n5 10\n17 8\n15 8\n5 16\n6 20\n3 19\n10 12\n5 13\n18 1\n",
+    "output" : "No\nNo\nNo\nNo\nNo\nNo\nNo\nYes\nNo\nYes\nNo\nNo\nNo\nYes\nNo\nYes\nNo\nNo\nNo\nYes\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.KConglomerate",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.01.02",
+  "contestName" : "第一回 アルゴリズム実技検定 過去問",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

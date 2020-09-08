@@ -1,0 +1,49 @@
+{
+  "name" : "Pattern Matching",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n5\n*CONUTS\n*COCONUTS\n*OCONUTS\n*CONUTS\n*S\n2\n*XZ\n*XYZ",
+    "output" : "Case #1: COCONUTS\nCase #2: *\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n2\nCO*DE\nJ*AM\n2\nCODE*\n*JAM\n2\nA*C*E\n*B*D*",
+    "output" : "Case #1: *\nCase #2: CODEJAM\nCase #3: ABCDE\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\n3\n*\n*A\nA*\n\n",
+    "output" : "Case #1: AA\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1\n3\n*\n*A\n*BA\n",
+    "output" : "Case #1: BA\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Solution",
+  "taskClass" : "dev.mikit.atcoder.PatternMatching",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.04.11",
+  "contestName" : "GCJ 2020 R1A",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

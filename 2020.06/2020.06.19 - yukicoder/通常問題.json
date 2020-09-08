@@ -1,0 +1,54 @@
+{
+  "name" : "通常問題",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n3 10 100 1000\n",
+    "output" : "1333\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n0 0 0\n",
+    "output" : "0\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5\n1000000000 1000000000 1000000000 1000000000 1000000000\n",
+    "output" : "999999895\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "5\n1 1 1 1 1\n",
+    "output" : "16\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "5\n1 10 100 1000 10000",
+    "output" : "14641\n",
+    "index" : 4,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.Task",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.06.19",
+  "contestName" : "yukicoder",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

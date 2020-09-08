@@ -1,0 +1,49 @@
+{
+  "name" : "No.1208 anti primenumber game",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 2\n6 3 2\n",
+    "output" : "First\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1 1000000000000\n1\n",
+    "output" : "Second\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2 0\n1 1\n",
+    "output" : "Second\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1 0\n2\n",
+    "output" : "First\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.No1208AntiPrimenumberGame",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.08.30",
+  "contestName" : "yukicoder",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner2",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter2",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

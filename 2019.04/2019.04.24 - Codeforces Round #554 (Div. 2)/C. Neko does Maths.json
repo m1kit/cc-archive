@@ -1,0 +1,84 @@
+{
+  "name" : "C. Neko does Maths",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6 10\n",
+    "output" : "2\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "21 31\n",
+    "output" : "9\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5 10\n",
+    "output" : "0\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1 10000",
+    "output" : "0\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "1109 3331",
+    "output" : "2\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "9000000 19000000",
+    "output" : "1000000",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "2 4 \n",
+    "output" : "0\n",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "3 5\n",
+    "output" : "1\n",
+    "index" : 7,
+    "active" : true
+  }, {
+    "input" : "2 10\n",
+    "output" : "0\n",
+    "index" : 8,
+    "active" : true
+  }, {
+    "input" : "1 1\n",
+    "output" : "0\n",
+    "index" : 9,
+    "active" : true
+  }, {
+    "input" : "2 2002\n",
+    "output" : "1998\n",
+    "index" : 10,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.CNekoDoesMaths",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.24",
+  "contestName" : "Codeforces Round #554 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,44 @@
+{
+  "name" : "C - Marks",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5 3\n96 98 95 100 20\n",
+    "output" : "Yes\nNo\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 2\n1001 869120 1001\n",
+    "output" : "No\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "15 7\n3 1 4 1 5 9 2 6 5 3 5 8 9 7 9\n",
+    "output" : "Yes\nYes\nNo\nYes\nYes\nNo\nYes\nYes\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.CMarks",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.07.25",
+  "contestName" : "AtCoder - M-SOLUTIONS プロコンオープン 2020",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

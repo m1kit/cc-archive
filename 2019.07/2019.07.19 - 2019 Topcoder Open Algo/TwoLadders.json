@@ -1,0 +1,46 @@
+{
+  "name" : "TwoLadders",
+  "signature" : {
+    "name" : "minSteps",
+    "result" : "long",
+    "arguments" : [ "int", "int", "int", "int[]", "int[]" ],
+    "argumentNames" : [ "sx", "lx1", "lx2", "X", "Y" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "10", "0", "100", "47 42", "0 0" ],
+    "result" : "37",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "10", "8", "11", "10 12", "1 1" ],
+    "result" : "5",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "10", "8", "42", "10 12", "1 1" ],
+    "result" : "7",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "10", "8", "42", "10 100 12", "1 0 1" ],
+    "result" : "181",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "500000000", "1", "999999999", "0 1000000000 0 1000000000 0 1000000000 0 1000000000 0 1000000000 0 1000000000 0 1000000000", "1 1 2 2 3 3 4 4 7 7 999999947 999999947 900000047 900000047" ],
+    "result" : "8499999959",
+    "index" : 4,
+    "active" : true
+  }, {
+    "arguments" : [ "5", "1", "9", "0 10 5", "1 1 2" ],
+    "result" : "22",
+    "index" : 5,
+    "active" : true
+  } ],
+  "date" : "2019.07.19",
+  "contestName" : "2019 Topcoder Open Algo",
+  "testClasses" : [ ],
+  "fqn" : "dev.mikit.atcoder.TwoLadders",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

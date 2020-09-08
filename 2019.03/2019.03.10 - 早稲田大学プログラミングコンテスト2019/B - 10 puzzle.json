@@ -1,0 +1,74 @@
+{
+  "name" : "B - 10 puzzle",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2 3\n0 1 2\n3 4 5\n",
+    "output" : "Yes 1\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2 2\n1 2\n2 1\n",
+    "output" : "No\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "5 3\n6 6 6\n6 5 5\n6 6 6\n6 5 6\n6 6 6\n",
+    "output" : "Yes 2\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3 3\n1 2 3\n4 5 6\n7 8 9\n",
+    "output" : "Yes 4\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "1 9\n9 8 7 6 5 6 7 8 9\n",
+    "output" : "Yes 7\n\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "1 6\n5 9 8 6 7 8\n",
+    "output" : "Yes 4\n",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "1 3\n9 5 9\n",
+    "output" : "Yes 7\n",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "1 2\n8 5\n",
+    "output" : "Yes 3\n",
+    "index" : 7,
+    "active" : true
+  }, {
+    "input" : "1 3\n5 5 5\n",
+    "output" : "Yes 1\n",
+    "index" : 8,
+    "active" : true
+  } ],
+  "location" : "src/jp/llv/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "jp.llv.atcoder.B10Puzzle",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.03.10",
+  "contestName" : "早稲田大学プログラミングコンテスト2019",
+  "truncate" : true,
+  "inputClass" : "jp.llv.atcoder.lib.io.LightScanner",
+  "outputClass" : "jp.llv.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

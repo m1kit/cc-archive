@@ -1,0 +1,49 @@
+{
+  "name" : "B. Xenia and Colorful Gems",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n2 2 3\n7 8\n6 3\n3 1 4\n1 1 1\n1\n1\n1000000000\n2 2 2\n1 2\n5 4\n6 7\n2 2 2\n1 2\n3 4\n6 7\n3 4 1\n3 2 1\n7 3 3 4\n6\n",
+    "output" : "14\n1999999996000000002\n24\n24\n14\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "1\n7 7 7\n1 1 1 2 3 3 3\n1 2 2 2 3 3 3\n1 1 1 2 2 2 3\n",
+    "output" : "0\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\n7 8 8\n0 1 2 50 98 99 100\n0 10000 10001 10002 10003 10004 10005 10006\n100 10000 10001 10002 10003 10004 10005 10006\n\n",
+    "output" : "150\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1\n1 1 1\n0\n1000000000\n1000000000\n",
+    "output" : "2000000000000000000",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.BXeniaAndColorfulGems",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.04.15",
+  "contestName" : "Codeforces - Codeforces Round #635 (Div. 1)",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

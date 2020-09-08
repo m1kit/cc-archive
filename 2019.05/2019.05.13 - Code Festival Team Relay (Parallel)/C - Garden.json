@@ -1,0 +1,44 @@
+{
+  "name" : "C - Garden",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2 6\n20 10\n25 15\n",
+    "output" : "50\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3 9\n10 10\n10 10\n10 10\n",
+    "output" : "30\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1 1000000000\n1000000000000000000 1000000000\n",
+    "output" : "1999999999000000000\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.CGarden",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.13",
+  "contestName" : "Code Festival Team Relay (Parallel)",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

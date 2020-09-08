@@ -1,0 +1,44 @@
+{
+  "name" : "A - ファイティング・タカハシ",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\nABBAAABBAA",
+    "output" : "46\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "100\nAAABAAAABAAAAABBBBBBBBBAABBBBBBAAAAABBB",
+    "output" : "4900",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "2\nAAA\n",
+    "output" : "21\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.A",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.12",
+  "contestName" : "COLOCON -Colopl programming contest 2018- Final（オープンコンテスト）",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

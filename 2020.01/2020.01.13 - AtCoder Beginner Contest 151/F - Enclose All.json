@@ -1,0 +1,57 @@
+{
+  "name" : "F - Enclose All",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n0 0\n1 0\n",
+    "output" : "0.500000000000000000\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "3\n0 0\n0 1\n1 0\n",
+    "output" : "0.707106781186497524\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "10\n10 9\n5 9\n2 0\n0 0\n2 7\n3 3\n2 5\n10 0\n3 7\n1 9\n",
+    "output" : "6.726812023536805158\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "3\n2 0\n2 7\n2 5\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "3\n10 9\n0 0\n3 3\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "48\n314 901\n710 744\n331 497\n819 414\n560 600\n408 389\n701 352\n185 279\n633 879\n115 443\n502 427\n238 468\n623 171\n185 421\n116 222\n619 151\n491 98\n679 948\n809 625\n200 461\n220 105\n499 182\n541 720\n400 108\n97 478\n462 950\n51 656\n269 849\n734 912\n651 372\n531 391\n934 295\n167 544\n609 884\n340 435\n312 55\n540 642\n578 189\n261 153\n127 690\n803 403\n556 275\n335 772\n254 182\n590 659\n401 926\n320 538\n107 345\n",
+    "output" : "482.967323980163669772\n",
+    "index" : 5,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.FEncloseAll",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.01.13",
+  "contestName" : "AtCoder Beginner Contest 151",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

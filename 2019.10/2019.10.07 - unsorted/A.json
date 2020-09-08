@@ -1,0 +1,64 @@
+{
+  "name" : "A",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4\n1\n100\n50 1\n49 1\n100\n8\n100 200 100 200 100 200 100 100\n10 2\n15 3\n107\n3\n1000000000 1000000000 1000000000\n50 1\n50 1\n3000000000\n5\n200 100 100 100 100\n69 5\n31 2\n90\n",
+    "output" : "-1\n6\n3\n4\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "4\n1\n100\n49 1\n50 1\n100\n8\n100 200 100 200 100 200 100 100\n15 3\n10 2\n107\n3\n1000000000 1000000000 1000000000\n50 1\n50 1\n3000000000\n5\n200 100 100 100 100\n31 2\n69 5\n90\n",
+    "output" : "-1\n6\n3\n4\n\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\n1\n100\n100 100000\n100 100000\n100",
+    "output" : "-1",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1\n5\n100 99 98 97 96\n50 1\n100 3\n50\n",
+    "output" : "1\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "1\n6\n100 100 100 100 100 100\n50 3\n50 3\n100\n",
+    "output" : "3\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "1\n6\n100 100 100 100 100 100\n50 3\n50 3\n101\n",
+    "output" : "6",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "1\n6\n100 100 100 100 100 100\n50 3\n50 6\n101\n",
+    "output" : "6\n",
+    "index" : 6,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256m -Xss64m",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.A",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.10.07",
+  "contestName" : "",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

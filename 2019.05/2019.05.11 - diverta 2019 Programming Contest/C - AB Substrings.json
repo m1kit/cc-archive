@@ -1,0 +1,84 @@
+{
+  "name" : "C - AB Substrings",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\nABCA\nXBAZ\nBAD\n",
+    "output" : "2\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "9\nBEWPVCRWH\nZZNQYIJX\nBAVREA\nPA\nHJMYITEOX\nBCJHMRMNK\nBP\nQVFABZ\nPRGKSPUNA\n",
+    "output" : "4\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "7\nRABYBBE\nJOZ\nBMHQUVA\nBPA\nISU\nMCMABAOBHZ\nSZMEHMA\n",
+    "output" : "4\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "2\nBA\nBA\n",
+    "output" : "1\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "3\nA\nBA\nBA\n",
+    "output" : "2\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "3\nBABA\nBA\nBABAB",
+    "output" : "5\n",
+    "index" : 5,
+    "active" : true
+  }, {
+    "input" : "1\nBABA\n",
+    "output" : "1\n",
+    "index" : 6,
+    "active" : true
+  }, {
+    "input" : "3\nAB\nAB\nBA\n",
+    "output" : "2\n",
+    "index" : 7,
+    "active" : true
+  }, {
+    "input" : "3\nAB\nABA\nBA\n",
+    "output" : "3\n",
+    "index" : 8,
+    "active" : true
+  }, {
+    "input" : "2\nBA\nAB\n",
+    "output" : "1\n",
+    "index" : 9,
+    "active" : true
+  }, {
+    "input" : "3\nABA\nBA\nBA\n",
+    "output" : "3\n",
+    "index" : 10,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.CABSubstrings",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.11",
+  "contestName" : "diverta 2019 Programming Contest",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

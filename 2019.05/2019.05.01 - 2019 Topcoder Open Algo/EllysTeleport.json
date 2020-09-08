@@ -1,0 +1,41 @@
+{
+  "name" : "EllysTeleport",
+  "signature" : {
+    "name" : "getMax",
+    "result" : "int",
+    "arguments" : [ "int", "int", "int", "int", "int", "int", "int" ],
+    "argumentNames" : [ "N", "H1", "A", "B", "P", "Q", "M" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "11", "9", "17", "9", "7", "13", "23" ],
+    "result" : "6",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "8", "17", "23", "19", "15", "28", "43" ],
+    "result" : "4",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "15", "42", "114", "52", "76", "1", "131" ],
+    "result" : "5",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "10", "71", "54", "85", "96", "52", "100" ],
+    "result" : "10",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "1000", "1337", "706135", "1085680", "1153206", "345473", "1234567" ],
+    "result" : "42",
+    "index" : 4,
+    "active" : true
+  } ],
+  "date" : "2019.05.01",
+  "contestName" : "2019 Topcoder Open Algo",
+  "testClasses" : [ ],
+  "fqn" : "dev.mikit.atcoder.EllysTeleport",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

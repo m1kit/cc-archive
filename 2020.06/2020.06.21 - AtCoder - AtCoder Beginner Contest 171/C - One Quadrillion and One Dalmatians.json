@@ -1,0 +1,59 @@
+{
+  "name" : "C - One Quadrillion and One Dalmatians",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n",
+    "output" : "b\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "27\n",
+    "output" : "aa\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "123456789\n",
+    "output" : "jjddja\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1",
+    "output" : "a\n",
+    "index" : 3,
+    "active" : true
+  }, {
+    "input" : "26\n",
+    "output" : "z\n",
+    "index" : 4,
+    "active" : true
+  }, {
+    "input" : "676",
+    "output" : "zz\n",
+    "index" : 5,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.COneQuadrillionAndOneDalmatians",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2020.06.21",
+  "contestName" : "AtCoder - AtCoder Beginner Contest 171",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

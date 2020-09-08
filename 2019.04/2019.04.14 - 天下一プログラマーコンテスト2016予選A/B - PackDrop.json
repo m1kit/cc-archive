@@ -1,0 +1,44 @@
+{
+  "name" : "B - PackDrop",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 2\n0\n0\n1 5\n2 10",
+    "output" : "15\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5 3\n0\n1\n0\n1\n2 5\n3 3\n4 7",
+    "output" : "10",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "7 4\n0\n0\n2\n2\n3\n3\n1 3\n4 2\n5 8\n6 6",
+    "output" : "11",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.BPackDrop",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.04.14",
+  "contestName" : "天下一プログラマーコンテスト2016予選A",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

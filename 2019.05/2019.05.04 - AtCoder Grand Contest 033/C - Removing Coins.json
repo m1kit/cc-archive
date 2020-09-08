@@ -1,0 +1,49 @@
+{
+  "name" : "C - Removing Coins",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n1 2\n2 3\n",
+    "output" : "First\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6\n1 2\n2 3\n2 4\n4 6\n5 6\n",
+    "output" : "Second\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "7\n1 7\n7 4\n3 4\n7 5\n6 3\n2 1\n",
+    "output" : "First\n",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "6\n1 2\n1 3\n1 4\n1 5\n5 6\n\n",
+    "output" : "First\n",
+    "index" : 3,
+    "active" : true
+  } ],
+  "location" : "src/dev/mikit/atcoder",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "dev.mikit.atcoder.CRemovingCoins",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2019.05.04",
+  "contestName" : "AtCoder Grand Contest 033",
+  "truncate" : true,
+  "inputClass" : "dev.mikit.atcoder.lib.io.LightScanner",
+  "outputClass" : "dev.mikit.atcoder.lib.io.LightWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
